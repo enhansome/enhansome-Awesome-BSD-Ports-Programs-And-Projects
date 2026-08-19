@@ -1,976 +1,995 @@
 {
   "items": [
     {
-      "description": "This repository will function as a list of interesting ports, programs, and Projects for newbies and veterans to BSD.\nFeel free to contribute / star / fork / or make a pull request, We appreciate any recommendations and suggestions are welcome. BSD's community is what makes this possible!\nA guide for contributing are at the very bottom of the list or at the How to Contribute Document\nAcknowledgements: I am merely a passionate newbie to these OS's and freely admit that I know enough to be dangerous, please put in a pull request if you find information that can be improved or otherwise modified to be clearer.",
-      "items": [],
-      "title": "Port, Programs, and Projects!"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "FAQ"
-    },
-    {
-      "description": "BSD was originally a UNIX based operating system that was developed at the the University of Berkeley in California in the late 70's. At the time it was a closed source, or partially closed source operating system that was gradually re-engineered into a completely Open source Operating System now used all over the world.",
-      "items": [],
-      "title": "What is BSD?"
-    },
-    {
-      "description": "BSD takes a more centralized approach in its development having entire program and kernel ecosystems developed together. Whereas Linux itself is just a kernel which then requires groups of people to add packages and other system components together to build the whole operating system, this creates a Linux \"Distribution\" a distribution of software components (programs, Kernel, drivers and whatnot.)\nBecause of this difference and because BSD is built around an entire ecosystem from the start, it has an excellent history of documentation for its various functions, both in the Kernel, and with its programs.\nFor the average UNIX user, it will seem very familiar in many ways, and learning BSD from Linux or other UNIX based Operating Systems will be fairly straightforward, with nearly all of the most common UNIX friendly tools and shells are available for the user.\nHere is a more in-depth guide to the differences: How Linux, BSD, UNIX, and macOS Relate to Each Other.",
-      "items": [],
-      "title": "How is BSD different than Linux?"
-    },
-    {
-      "description": "A Package (Referred to as a program in this list) is a program already compiled into a binary that can be run on the largest number of systems due to be pre-compiled for you with the most general settings. It requires only the briefest installation, and does not require compilation to run on your machine.\nA Port is source code with instructions that allow you to compile the code on your machine to create an executable program. It has the advantage of allowing you to compile the program in a more specific way for your machine to get extra performance from the code or only get parts of the program that you need such as only getting the webhost part of an Apache webserver, but no WebDAV or support for User Directories making the program smaller and leaner.\nBSD allows installation of both types of software to allow for either ease or flexibility in your OS and environment, it is up to you to decide which you would prefer to use.",
-      "items": [],
-      "title": "What are the differences between Packages and Ports?"
-    },
-    {
-      "description": "If you know what you are doing, there should be little issue, Issues come when you don't know.\nA basic scenario would be this: say you would like to install only part of a webserver, and you modify the port make file to ensure you only install that part. It will function normally, but if you install a program that requires that as a dependency, it may see it, but malfunction due to not having the entirely of that program installed. If the software have no relation to each other, there should be no issues. But when in doubt, install either only ports, or only Packages.",
-      "items": [],
-      "title": "Can I mix and Match Ports and Packages?"
-    },
-    {
-      "description": "If you use MidnightBSD, NomadBSD or GhostBSD, or any of a variety of alternative BSD's, typically they are based off one of the main 4 BSD's: DragonflyBSD, FreeBSD, NetBSD, or OpenBSD and will have access to their ports. A brief perusal of the BSD's home website will generally inform you of which you can use. Simply click on the BSD that yours is based on here and follow the same instructions.\nDebian GNU/kFreeBSD does not have a port system, and instead uses the Debian Packaging that Debian Linux uses.",
-      "items": [],
-      "title": "What if I have another BSD?"
-    },
-    {
-      "description": "It depends on the BSD but they all will be somewhat similar, this will assume that you have the OS setup and are sitting at a command line. These will nearly always have to be run as the super user or root. (Using the doas or sudo commands.)\nDragonflyBSD: pkg install (packagename)\nFreeBSD: pkg install (packagename)\nNetBSD: pkgin install (packagename) ^Note that NetBSD may need to have pkgin installed first before this command will function. ^^Additional Note You may need to follow these instructions if the pkg is located in wip.\nOpenBSD: pkg_add (packagename)",
-      "items": [],
-      "title": "How can I install these programs?"
-    },
-    {
-      "description": "Currently there are 4 BSD projects seen as the largest among the BSD's and are the various icons listed here, for those who are not familiar with one, in alphabetical order here are some basic descriptions of them:\n\nDragonFly belongs to the same class of operating systems as other BSD-derived systems and Linux. It is based on the same UNIX ideals and APIs and shares ancestor code with other BSD operating systems. DragonFly provides an opportunity for the BSD base to grow in an entirely different direction from the one taken in the FreeBSD, NetBSD, and OpenBSD series.\n\nFreeBSD is an operating system used to power modern servers, desktops, and embedded platforms. A large community has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.\n\nNetBSD is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices.\n\nThe OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like operating system. Our efforts emphasize portability, standardization, correctness, proactive security and integrated cryptography. As an example of the effect OpenBSD has, the popular OpenSSH software comes from OpenBSD.",
-      "items": [],
-      "title": "What are the Big Four BSD's?"
-    },
-    {
-      "description": "= is available in the FreeBSD Ports, and provides a link to that port.\n= is available in the NetBSD Ports, and provides a link to that port.\n= is available in the DragonflyBSD Ports, and provides a link to that port.\n= is available in the OpenBSD Ports, and provides a link to that port.\n= Program is Command line only.\n= Program is open source, and is freely available, source code and all. if you click this icon, it will take you to that source code for that program.\n= Program is closed source, and may cost money.",
-      "items": [],
-      "title": "Key"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Ports and Programs"
-    },
-    {
-      "description": "",
+      "description": "The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like operating system. Our efforts emphasize portability, standardization, correctness, proactive security and integrated cryptography. As an example of the effect OpenBSD has, the popular OpenSSH software comes from OpenBSD.",
       "items": [
         {
-          "node_type": "item",
-          "title": "",
-          "description": "Audacity - Free, open source, cross-platform software for recording and editing sounds.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-18T09:50:50Z",
-            "owner": "audacity",
-            "repo": "audacity",
-            "stars": 17594
-          }
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Audacity - Free, open source, cross-platform software for recording and editing sounds.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 32921736,
+                    "language": "C++",
+                    "last_commit": "2026-08-19T09:28:56Z",
+                    "owner": "audacity",
+                    "repo": "audacity",
+                    "stars": 17602
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Clementine - Clementine is a multiplatform music player. It is inspired by Amarok 1.4, focusing on a fast and easy-to-use interface for searching and playing your music.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 14979312,
+                    "language": "C++",
+                    "last_commit": "2026-08-13T03:33:11Z",
+                    "owner": "clementine-player",
+                    "repo": "Clementine",
+                    "stars": 4240
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Audio"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Exa - exa is an improved file lister with more features and better defaults. It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git. And it’s small, fast, and just one single binary.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 20060596,
+                    "language": "Rust",
+                    "last_commit": "2024-09-24T15:18:09Z",
+                    "owner": "ogham",
+                    "repo": "exa",
+                    "stars": 24437
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Neofetch - Neofetch is a command-line system information tool written in bash 3.2+. Neofetch displays information about your operating system, software and hardware in an aesthetic and visually pleasing way.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 48795298,
+                    "language": "Shell",
+                    "last_commit": "2024-07-19T20:19:01Z",
+                    "owner": "dylanaraps",
+                    "repo": "neofetch",
+                    "stars": 23708
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Colorls - A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons. 🎉",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 95798441,
+                    "language": "Ruby",
+                    "last_commit": "2026-07-27T11:41:05Z",
+                    "owner": "athityakumar",
+                    "repo": "colorls",
+                    "stars": 5135
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Command Line Utilities"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Cordless - Cordless is a custom Discord client that aims to have a low memory footprint and be aimed at power-users. It uses a TUI interface on the command line - The Discord terminal client you never knew you wanted.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": true,
+                        "id": 165042306,
+                        "language": "Go",
+                        "last_commit": "2021-12-16T11:27:51Z",
+                        "owner": "Bios-Marcel",
+                        "repo": "cordless",
+                        "stars": 1699
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Cutegram - Cutegram is a free and open source telegram clients for Linux, Windows, OS X and OpenBSD, focusing on user friendly, compatibility with desktop environments. Cutegram using Qt5, QML, libqtelegram, libappindication, AsemanQtTools technologies and Faenza icons and Twitter emojies graphic sets. It’s free and released under GPLv3 license.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 28384386,
+                        "language": "QML",
+                        "last_commit": "2023-03-08T13:30:40Z",
+                        "owner": "Aseman-Land",
+                        "repo": "Cutegram",
+                        "stars": 383
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "3rd party Client"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Mattermost-Server - Open source Slack-alternative in Golang and React.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 37448451,
+                        "language": "TypeScript",
+                        "last_commit": "2026-08-19T10:26:27Z",
+                        "owner": "mattermost",
+                        "repo": "mattermost",
+                        "stars": 38840
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Oragono - Oragono is a modern IRC server written in Go. Its core design principles are: ,Being simple to set up and use, Combining the features of an ircd, a services framework, and a, bouncer (integrated account management, history storage, and bouncer functionality), Bleeding-edge IRCv3 support, suitable for use as an IRCv3 reference implementation, Highly customizable via a rehashable (i.e., reloadable at runtime) YAML config.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 55980660,
+                        "language": "Go",
+                        "last_commit": "2026-08-17T02:57:02Z",
+                        "owner": "ergochat",
+                        "repo": "ergo",
+                        "stars": 3306
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "ngIRCd - ngIRCd is a free, portable and lightweight Internet Relay Chat server for small or private networks, developed under the GNU General Public License (GPL). The server is quite easy to configure, can handle dynamic IP addresses, and optionally supports IDENT, IPv6 connections, SSL-protected links, and PAM for user authentication as well as character set conversion for legacy clients. The server has been written from scratch and is not based on the forefather, the daemon of the IRCNet.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 3093688,
+                        "language": "C",
+                        "last_commit": "2026-07-12T16:22:30Z",
+                        "owner": "ngircd",
+                        "repo": "ngircd",
+                        "stars": 574
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "IRCD-Hybrid - IRC (Internet Relay Chat) provides a way of communicating in real time with people. Generally, the user runs a client program to a server running a IRC server software. Hybrid ircd is such a server.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 15657361,
+                        "language": "C",
+                        "last_commit": "2026-08-18T19:43:48Z",
+                        "owner": "ircd-hybrid",
+                        "repo": "ircd-hybrid",
+                        "stars": 200
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "Chat Server"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Matterbridge - bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, steam, twitch, ssh-chat, zulip, whatsapp, keybase, matrix, microsoft teams, nextcloud, mumble and more with REST API (mattermost not required!)",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 44820350,
+                        "language": "Go",
+                        "last_commit": "2024-12-12T00:20:34Z",
+                        "owner": "42wim",
+                        "repo": "matterbridge",
+                        "stars": 7552
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "BitlBee - BitlBee brings IM (instant messaging) to IRC clients. It's a great solution for people who have an IRC client running all the time and don't want to run an additional XMPP/facebook/discord/whatever client.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 29792084,
+                        "language": "C",
+                        "last_commit": "2025-10-05T12:07:28Z",
+                        "owner": "bitlbee",
+                        "repo": "bitlbee",
+                        "stars": 644
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "Chat Server Utilities"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Weechat - Full-featured IRC chat client with plugin support for: multi-servers, proxy support, IPv6, SASL authentication, nicklist, DCC, and many other features.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 17359210,
+                        "language": "C",
+                        "last_commit": "2026-08-17T16:49:06Z",
+                        "owner": "weechat",
+                        "repo": "weechat",
+                        "stars": 3368
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "EPIC - EPIC is a IRC client that has been under active development for 25+ years in 5 generations. It is stable and mature, and offers an excellent ircII interface for those of us who are accustomed to the ircII way of doing things.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": true,
+                        "id": 4994785,
+                        "language": "C",
+                        "last_commit": "2024-08-19T02:29:21Z",
+                        "owner": "hexchat",
+                        "repo": "hexchat",
+                        "stars": 3231
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Hexchat - HexChat is an IRC client based on XChat, but unlike XChat it’s completely free for both Windows and Unix-like systems. Since XChat is open source, it’s perfectly legal. For more info, please read the Shareware background.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": true,
+                        "id": 4994785,
+                        "language": "C",
+                        "last_commit": "2024-08-19T02:29:21Z",
+                        "owner": "hexchat",
+                        "repo": "hexchat",
+                        "stars": 3231
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Konversation - Konversation is a user-friendly Internet Relay Chat (IRC) client built on the KDE Platform.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 42721854,
+                        "language": "C++",
+                        "last_commit": "2026-08-18T03:28:34Z",
+                        "owner": "KDE",
+                        "repo": "konversation",
+                        "stars": 57
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "LostIRC - LostIRC is a simple, yet very useful IRC client. It has features such as tab-autocompletion, multiple server support, automatic joining of servers/channels, logging and DCC sending which should cover the needs of most people. Another goal that the application has in mind, is 100% keyboard controlability. It was written using the gtkmm GUI library.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 10369065,
+                        "language": "C++",
+                        "last_commit": "2013-05-29T20:51:04Z",
+                        "owner": "mbp",
+                        "repo": "lostirc",
+                        "stars": 8
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "IRC Client"
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Chat Clients"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "BorgBackup - BorgBackup (short: Borg) is a deduplicating backup program. Optionally, it supports compression and authenticated encryption. The main goal of Borg is to provide an efficient and secure way to backup data. The data deduplication technique used makes Borg suitable for daily backups since only changes are stored. The authenticated encryption technique makes it suitable for backups to not fully trusted targets.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 35517126,
+                    "language": "Python",
+                    "last_commit": "2026-08-19T10:29:52Z",
+                    "owner": "borgbackup",
+                    "repo": "borg",
+                    "stars": 13626
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "BackupPC - BackupPC is a high-performance, enterprise-grade system for backing up Linux, Windows and macOS PCs and laptops to a server's disk. BackupPC is highly configurable and easy to install and maintain.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 9079569,
+                    "language": "Perl",
+                    "last_commit": "2026-05-31T11:48:27Z",
+                    "owner": "backuppc",
+                    "repo": "backuppc",
+                    "stars": 1624
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Data Backup and Recovery"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Lumina - The Lumina desktop is designed to be fast, customizable, flexible, and lightweight. Lumina works great in multi-monitor configurations and with high-resolution monitors as well as single-screen configurations on laptops or tablets.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 23668497,
+                    "language": "C++",
+                    "last_commit": "2025-07-18T20:47:44Z",
+                    "owner": "lumina-desktop",
+                    "repo": "lumina",
+                    "stars": 589
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "FrankenWM - FrankenWM is a dynamic tiling WM (comparable to dwm or Awesome), featuring the v-stack, b-stack, grid, fibonacci, dualstack, equal and monocle layouts out of the box. If you want to, you can add gaps between the windows as well.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 21003064,
+                    "language": "C",
+                    "last_commit": "2024-06-03T23:09:57Z",
+                    "owner": "sulami",
+                    "repo": "FrankenWM",
+                    "stars": 284
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Desktop Environments"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Visual Studio Code - VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive editing and debugging support, an extensibility model, and lightweight integration with existing tools.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 41881900,
+                        "language": "TypeScript",
+                        "last_commit": "2026-08-19T10:40:27Z",
+                        "owner": "microsoft",
+                        "repo": "vscode",
+                        "stars": 188919
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Geany - Geany is a powerful, stable and lightweight programmer's text editor that provides tons of useful features without bogging down your workflow. It runs on Linux, Windows and MacOS is translated into over 40 languages, and has built-in support for more than 50 programming languages.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 2532922,
+                        "language": "C",
+                        "last_commit": "2026-08-03T21:34:14Z",
+                        "owner": "geany",
+                        "repo": "geany",
+                        "stars": 3696
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "General Purpose IDE's"
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Development"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Neovim - Neovim is an aggressive refactor of editors/vim. It represents a including sensible defaults, a built-in terminal emulator, asynchronous plugin architecture, and powerful APIs designed for speed and extensibility. It retains full compatibility with almost all Vim plugins and scripts. Open the software with , not .",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 16408992,
+                    "language": "Vim Script",
+                    "last_commit": "2026-08-19T08:07:45Z",
+                    "owner": "neovim",
+                    "repo": "neovim",
+                    "stars": 101860
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Atom - Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub.",
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Atom-ide - Atom UIs to support language services and debuggers as part of Atom IDE. Installable on any Atom installation as a plugin.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": true,
+                        "id": 86409404,
+                        "language": "JavaScript",
+                        "last_commit": "2018-11-15T21:35:39Z",
+                        "owner": "facebookarchive",
+                        "repo": "atom-ide-ui",
+                        "stars": 932
+                      }
+                    }
+                  ],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 3228505,
+                    "language": "JavaScript",
+                    "last_commit": "2023-01-03T10:49:48Z",
+                    "owner": "atom",
+                    "repo": "atom",
+                    "stars": 60777
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Vim - Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as \"vi\" with most UNIX systems and with Apple OS X.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 40997482,
+                    "language": "Vim Script",
+                    "last_commit": "2026-08-18T21:07:28Z",
+                    "owner": "vim",
+                    "repo": "vim",
+                    "stars": 40770
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Micro - Micro is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 53632140,
+                    "language": "Go",
+                    "last_commit": "2026-08-19T01:13:27Z",
+                    "owner": "micro-editor",
+                    "repo": "micro",
+                    "stars": 29383
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Spacemacs - A community-driven Emacs distribution The best editor is neither Emacs nor Vim, it's Emacs and Vim!",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 7212645,
+                    "language": "Emacs Lisp",
+                    "last_commit": "2026-08-18T05:52:08Z",
+                    "owner": "syl20bnr",
+                    "repo": "spacemacs",
+                    "stars": 24555
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Kakoune - Modal editor · Faster as in less keystrokes · Multiple selections · Orthogonal design",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 2701888,
+                    "language": "C++",
+                    "last_commit": "2026-08-19T07:32:53Z",
+                    "owner": "mawww",
+                    "repo": "kakoune",
+                    "stars": 11030
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Emacs - An extensible, customizable, free/libre text editor, at its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 22711712,
+                    "language": "Emacs Lisp",
+                    "last_commit": "2026-08-19T03:01:51Z",
+                    "owner": "emacs-mirror",
+                    "repo": "emacs",
+                    "stars": 5163
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Featherpad - FeatherPad is a lightweight Qt5 plain-text editor. It is independent of any desktop environment and has: Drag-and-drop support, including tab detachment and attachment, Instant highlighting of found matches when searching, A docked window for text replacement and much more.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 54059569,
+                    "language": "C++",
+                    "last_commit": "2026-08-07T18:01:49Z",
+                    "owner": "tsujan",
+                    "repo": "FeatherPad",
+                    "stars": 509
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Editors"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "nnn - nnn is a fast and resource-sensitive file browser which integrates well with your DE and favorite GUI utilities, works with the desktop opener, supports bookmarks, has smart navigation shortcuts, has navigate-as-you-type mode, disk usage analyzer mode, comprehensive file details and much more.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 66150122,
+                    "language": "C",
+                    "last_commit": "2026-08-17T16:17:54Z",
+                    "owner": "jarun",
+                    "repo": "nnn",
+                    "stars": 21817
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "ranger - ranger is a file manager with VI key bindings. It provides a minimalistic yet nice curses interface with a view on the directory hierarchy. The secondary task of ranger is to psychically guess which program you want to use for opening particular files.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 218157,
+                    "language": "Python",
+                    "last_commit": "2026-08-15T07:36:52Z",
+                    "owner": "ranger",
+                    "repo": "ranger",
+                    "stars": 17355
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "File Managers"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Zerotier - ZeroTier can be used for on-premise network virtualization, as a peer to peer VPN for mobile teams, for hybrid or multi-data-center cloud deployments, or just about anywhere else secure software defined virtual networking is useful. It's a Global Ethernet Switch!",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 9647856,
+                    "language": "C++",
+                    "last_commit": "2026-08-03T17:28:38Z",
+                    "owner": "zerotier",
+                    "repo": "ZeroTierOne",
+                    "stars": 17026
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Mosh - Mosh is a remote shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1234783,
+                    "language": "C++",
+                    "last_commit": "2026-03-22T20:20:13Z",
+                    "owner": "mobile-shell",
+                    "repo": "mosh",
+                    "stars": 14374
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Network Tools"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "VLC - VLC media player is a highly portable multimedia player for various audio and video formats as well as DVD's, VCD's, and various streaming protocols. It can also be used as a server to stream in unicast or multicast in IPv4 or IPv6 on a high-bandwidth network. VLC also has the ability to transcode media on-the-fly for streaming or saving to disk.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 3299208,
+                    "language": "C",
+                    "last_commit": "2026-08-19T10:57:30Z",
+                    "owner": "videolan",
+                    "repo": "vlc",
+                    "stars": 19373
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Pianobar - Pianobar is a free/open-source, console-based client for the personalized online radio Pandora.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 23892,
+                    "language": "C",
+                    "last_commit": "2025-12-05T09:34:14Z",
+                    "owner": "PromyLOPh",
+                    "repo": "pianobar",
+                    "stars": 1762
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Media Players"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Fail2ban - Fail2Ban scans log files like /var/log/auth.log and bans IP addresses conducting too many failed login attempts. It does this by updating system firewall rules to reject new connections from those IP addresses, for a configurable amount of time. Fail2Ban comes out-of-the-box ready to read many standard log files, such as those for sshd and Apache, and is easily configured to read any log file of your choosing, for any error you wish.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 2476162,
+                    "language": "Python",
+                    "last_commit": "2026-08-18T13:28:22Z",
+                    "owner": "fail2ban",
+                    "repo": "fail2ban",
+                    "stars": 18417
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Vuls - Vuls is open-source, agent-less vulnerability scanner based on information from NVD, OVAL, etc.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 54808920,
+                    "language": "Go",
+                    "last_commit": "2026-08-19T05:43:01Z",
+                    "owner": "future-architect",
+                    "repo": "vuls",
+                    "stars": 12233
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Bastille - Bastille is an open-source system for automating deployment and management of containerized applications on FreeBSD.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 123662721,
+                    "language": "Shell",
+                    "last_commit": "2026-08-19T02:59:51Z",
+                    "owner": "BastilleBSD",
+                    "repo": "bastille",
+                    "stars": 1095
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Security"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Fish - Fish is a shell designed with user friendliness in mind, having many included features such as syntax highlighting and autosuggestions, with extensive tab autocompletion, it is a very interesting take on a POSIX shell.",
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Oh-My-Fish - Oh My Fish is an open source, framework which allows for the installation of plugins that extend the functionality of fish. Can be installed via git or shellscript.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 41871628,
+                        "language": "Shell",
+                        "last_commit": "2026-05-19T18:17:02Z",
+                        "owner": "oh-my-fish",
+                        "repo": "oh-my-fish",
+                        "stars": 11374
+                      }
+                    }
+                  ],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 4279682,
+                    "language": "Rust",
+                    "last_commit": "2026-08-17T02:22:22Z",
+                    "owner": "fish-shell",
+                    "repo": "fish-shell",
+                    "stars": 34034
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Elvish - Elvish is a friendly interactive shell and an expressive programming language. It runs on Linux, BSDs, macOS and Windows. Despite its pre-1.0 status, it is already suitable for most daily interactive use.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 10717754,
+                    "language": "Go",
+                    "last_commit": "2026-03-31T22:04:07Z",
+                    "owner": "elves",
+                    "repo": "elvish",
+                    "stars": 6359
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Osh - Oil-Shell is a new shell intended to replace bash, with a built in language called oil language. It is largely compatible with bash scripts.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 73847171,
+                    "language": "Python",
+                    "last_commit": "2026-05-31T03:03:03Z",
+                    "owner": "oils-for-unix",
+                    "repo": "oils",
+                    "stars": 3381
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "csh - The C Shell or csh is the default Shell in NetBSD and OpenBSD, It was written by Bill Joy in the late 70's and is one of the oldest continuously developed shells. Development has transferred entirely to tcsh.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 80540178,
+                    "language": "C",
+                    "last_commit": "2026-05-21T12:37:01Z",
+                    "owner": "tcsh-org",
+                    "repo": "tcsh",
+                    "stars": 288
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "tcsh - tcsh is the continuation and successor to csh and expands on its functionalities and capabilities. It is the default root shell on FreeBSD though not its default user shell, and can be installed on the other major BSD's.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 80540178,
+                    "language": "C",
+                    "last_commit": "2026-05-21T12:37:01Z",
+                    "owner": "tcsh-org",
+                    "repo": "tcsh",
+                    "stars": 288
+                  }
+                },
+                {
+                  "node_type": "group",
+                  "title": "",
+                  "description": "Bash - The GNU Bourne-Again SHell or bash shell, is typically the default shell available on Linux distributions is available for BSD also, it supports advanced scripting features and is very extensible. Highly reccomended for people trying BSD to ease transition into the OS.",
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Oh-My-Bash - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration. Can be installed via git or shellscript if not in Ports.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 85459264,
+                        "language": "Shell",
+                        "last_commit": "2026-08-01T07:13:22Z",
+                        "owner": "ohmybash",
+                        "repo": "oh-my-bash",
+                        "stars": 7652
+                      }
+                    }
+                  ]
+                },
+                {
+                  "node_type": "group",
+                  "title": "",
+                  "description": "Zsh - Zsh is an extension of the Bourne Shell (bsh) and includes many improvements such as autocorrect, autocompletion, and is extensible with a great deal of many features. Theming is very popular with Zsh. It is the Default Shell on MacOS.",
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "",
+                      "description": "Oh-My-Zsh - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration and themes. Can be installed via git or shellscript if not in Ports. The original oh-my-framework.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 291137,
+                        "language": "Shell",
+                        "last_commit": "2026-08-17T21:45:08Z",
+                        "owner": "ohmyzsh",
+                        "repo": "ohmyzsh",
+                        "stars": 189264
+                      }
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "UNIX Shells"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Bleachbit - When your computer is getting full, BleachBit quickly frees disk space. When your information is only your business, BleachBit guards your privacy. With BleachBit you can free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk you didn't know was there. Designed for Linux and Windows systems, it wipes clean thousands of applications including Firefox, Adobe Flash, Google Chrome, Opera, and more.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 17578592,
+                    "language": "Python",
+                    "last_commit": "2026-08-19T04:51:31Z",
+                    "owner": "bleachbit",
+                    "repo": "bleachbit",
+                    "stars": 6616
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "",
+                  "description": "Crochet - Crochet is a tool for building bootable FreeBSD images for ARM development boards. This tool was formerly known as \"freebsd-beaglebone\" or \"beaglebsd\" as the original work was done for BeagleBone. But it now supports more boards and should easily extend to support many more.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 8840035,
+                    "language": "Shell",
+                    "last_commit": "2026-06-27T15:46:50Z",
+                    "owner": "freebsd",
+                    "repo": "crochet",
+                    "stars": 633
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Utilities"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Ports and Programs"
         },
         {
-          "node_type": "item",
-          "title": "",
-          "description": "Clementine - Clementine is a multiplatform music player. It is inspired by Amarok 1.4, focusing on a fast and easy-to-use interface for searching and playing your music.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-13T03:33:11Z",
-            "owner": "clementine-player",
-            "repo": "Clementine",
-            "stars": 4239
-          }
-        }
-      ],
-      "title": "Audio"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Exa - exa is an improved file lister with more features and better defaults. It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git. And it’s small, fast, and just one single binary.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2024-09-24T15:18:09Z",
-            "owner": "ogham",
-            "repo": "exa",
-            "stars": 24441
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Neofetch - Neofetch is a command-line system information tool written in bash 3.2+. Neofetch displays information about your operating system, software and hardware in an aesthetic and visually pleasing way.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Shell",
-            "last_commit": "2024-07-19T20:19:01Z",
-            "owner": "dylanaraps",
-            "repo": "neofetch",
-            "stars": 23708
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Colorls - A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons. 🎉",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Ruby",
-            "last_commit": "2026-07-27T11:41:05Z",
-            "owner": "athityakumar",
-            "repo": "colorls",
-            "stars": 5134
-          }
-        }
-      ],
-      "title": "Command Line Utilities"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Chat Clients"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Cordless - Cordless is a custom Discord client that aims to have a low memory footprint and be aimed at power-users. It uses a TUI interface on the command line - The Discord terminal client you never knew you wanted.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Go",
-            "last_commit": "2021-12-16T11:27:51Z",
-            "owner": "Bios-Marcel",
-            "repo": "cordless",
-            "stars": 1699
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Cutegram - Cutegram is a free and open source telegram clients for Linux, Windows, OS X and OpenBSD, focusing on user friendly, compatibility with desktop environments. Cutegram using Qt5, QML, libqtelegram, libappindication, AsemanQtTools technologies and Faenza icons and Twitter emojies graphic sets. It’s free and released under GPLv3 license.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "QML",
-            "last_commit": "2023-03-08T13:30:40Z",
-            "owner": "Aseman-Land",
-            "repo": "Cutegram",
-            "stars": 383
-          }
-        }
-      ],
-      "title": "3rd party Client"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Mattermost-Server - Open source Slack-alternative in Golang and React.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T10:59:34Z",
-            "owner": "mattermost",
-            "repo": "mattermost",
-            "stars": 38832
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Oragono - Oragono is a modern IRC server written in Go. Its core design principles are: ,Being simple to set up and use, Combining the features of an ircd, a services framework, and a, bouncer (integrated account management, history storage, and bouncer functionality), Bleeding-edge IRCv3 support, suitable for use as an IRCv3 reference implementation, Highly customizable via a rehashable (i.e., reloadable at runtime) YAML config.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-17T02:57:02Z",
-            "owner": "ergochat",
-            "repo": "ergo",
-            "stars": 3303
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "ngIRCd - ngIRCd is a free, portable and lightweight Internet Relay Chat server for small or private networks, developed under the GNU General Public License (GPL). The server is quite easy to configure, can handle dynamic IP addresses, and optionally supports IDENT, IPv6 connections, SSL-protected links, and PAM for user authentication as well as character set conversion for legacy clients. The server has been written from scratch and is not based on the forefather, the daemon of the IRCNet.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-07-12T16:22:30Z",
-            "owner": "ngircd",
-            "repo": "ngircd",
-            "stars": 574
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "IRCD-Hybrid - IRC (Internet Relay Chat) provides a way of communicating in real time with people. Generally, the user runs a client program to a server running a IRC server software. Hybrid ircd is such a server.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-15T18:14:32Z",
-            "owner": "ircd-hybrid",
-            "repo": "ircd-hybrid",
-            "stars": 200
-          }
-        }
-      ],
-      "title": "Chat Server"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Matterbridge - bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, steam, twitch, ssh-chat, zulip, whatsapp, keybase, matrix, microsoft teams, nextcloud, mumble and more with REST API (mattermost not required!)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2024-12-12T00:20:34Z",
-            "owner": "42wim",
-            "repo": "matterbridge",
-            "stars": 7551
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "BitlBee - BitlBee brings IM (instant messaging) to IRC clients. It's a great solution for people who have an IRC client running all the time and don't want to run an additional XMPP/facebook/discord/whatever client.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2025-10-05T12:07:28Z",
-            "owner": "bitlbee",
-            "repo": "bitlbee",
-            "stars": 644
-          }
-        }
-      ],
-      "title": "Chat Server Utilities"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Weechat - Full-featured IRC chat client with plugin support for: multi-servers, proxy support, IPv6, SASL authentication, nicklist, DCC, and many other features.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-17T16:49:06Z",
-            "owner": "weechat",
-            "repo": "weechat",
-            "stars": 3367
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "EPIC - EPIC is a IRC client that has been under active development for 25+ years in 5 generations. It is stable and mature, and offers an excellent ircII interface for those of us who are accustomed to the ircII way of doing things.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "C",
-            "last_commit": "2024-08-19T02:29:21Z",
-            "owner": "hexchat",
-            "repo": "hexchat",
-            "stars": 3230
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Hexchat - HexChat is an IRC client based on XChat, but unlike XChat it’s completely free for both Windows and Unix-like systems. Since XChat is open source, it’s perfectly legal. For more info, please read the Shareware background.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "C",
-            "last_commit": "2024-08-19T02:29:21Z",
-            "owner": "hexchat",
-            "repo": "hexchat",
-            "stars": 3230
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Konversation - Konversation is a user-friendly Internet Relay Chat (IRC) client built on the KDE Platform.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-18T03:28:34Z",
-            "owner": "KDE",
-            "repo": "konversation",
-            "stars": 57
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "LostIRC - LostIRC is a simple, yet very useful IRC client. It has features such as tab-autocompletion, multiple server support, automatic joining of servers/channels, logging and DCC sending which should cover the needs of most people. Another goal that the application has in mind, is 100% keyboard controlability. It was written using the gtkmm GUI library.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2013-05-29T20:51:04Z",
-            "owner": "mbp",
-            "repo": "lostirc",
-            "stars": 8
-          }
-        }
-      ],
-      "title": "IRC Client"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "BorgBackup - BorgBackup (short: Borg) is a deduplicating backup program. Optionally, it supports compression and authenticated encryption. The main goal of Borg is to provide an efficient and secure way to backup data. The data deduplication technique used makes Borg suitable for daily backups since only changes are stored. The authenticated encryption technique makes it suitable for backups to not fully trusted targets.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T10:54:12Z",
-            "owner": "borgbackup",
-            "repo": "borg",
-            "stars": 13624
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "BackupPC - BackupPC is a high-performance, enterprise-grade system for backing up Linux, Windows and macOS PCs and laptops to a server's disk. BackupPC is highly configurable and easy to install and maintain.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Perl",
-            "last_commit": "2026-05-31T11:48:27Z",
-            "owner": "backuppc",
-            "repo": "backuppc",
-            "stars": 1624
-          }
-        }
-      ],
-      "title": "Data Backup and Recovery"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Lumina - The Lumina desktop is designed to be fast, customizable, flexible, and lightweight. Lumina works great in multi-monitor configurations and with high-resolution monitors as well as single-screen configurations on laptops or tablets.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2025-07-18T20:47:44Z",
-            "owner": "lumina-desktop",
-            "repo": "lumina",
-            "stars": 589
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "FrankenWM - FrankenWM is a dynamic tiling WM (comparable to dwm or Awesome), featuring the v-stack, b-stack, grid, fibonacci, dualstack, equal and monocle layouts out of the box. If you want to, you can add gaps between the windows as well.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2024-06-03T23:09:57Z",
-            "owner": "sulami",
-            "repo": "FrankenWM",
-            "stars": 284
-          }
-        }
-      ],
-      "title": "Desktop Environments"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Development"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Visual Studio Code - VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive editing and debugging support, an extensibility model, and lightweight integration with existing tools.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T10:55:13Z",
-            "owner": "microsoft",
-            "repo": "vscode",
-            "stars": 188895
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Geany - Geany is a powerful, stable and lightweight programmer's text editor that provides tons of useful features without bogging down your workflow. It runs on Linux, Windows and MacOS is translated into over 40 languages, and has built-in support for more than 50 programming languages.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-03T21:34:14Z",
-            "owner": "geany",
-            "repo": "geany",
-            "stars": 3696
-          }
-        }
-      ],
-      "title": "General Purpose IDE's"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Neovim - Neovim is an aggressive refactor of editors/vim. It represents a including sensible defaults, a built-in terminal emulator, asynchronous plugin architecture, and powerful APIs designed for speed and extensibility. It retains full compatibility with almost all Vim plugins and scripts. Open the software with , not .",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Vim Script",
-            "last_commit": "2026-08-18T10:24:00Z",
-            "owner": "neovim",
-            "repo": "neovim",
-            "stars": 101840
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Atom - Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub.",
           "children": [
             {
               "node_type": "item",
-              "title": "",
-              "description": "Atom-ide - Atom UIs to support language services and debuggers as part of Atom IDE. Installable on any Atom installation as a plugin.",
+              "title": "Awesome UNIX",
+              "description": "covers the variety of UNIX likes and has a section for BSD.",
               "children": [],
               "repo_info": {
-                "archived": true,
-                "language": "JavaScript",
-                "last_commit": "2018-11-15T21:35:39Z",
-                "owner": "facebookarchive",
-                "repo": "atom-ide-ui",
-                "stars": 932
+                "archived": false,
+                "id": 111368115,
+                "language": null,
+                "last_commit": "2026-07-29T20:00:04Z",
+                "owner": "sirredbeard",
+                "repo": "awesome-unix",
+                "stars": 1768
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Awesome OpenBSD",
+              "description": "A List of resources related to the Open BSD Operating System.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 65755474,
+                "language": null,
+                "last_commit": "2025-05-05T08:44:07Z",
+                "owner": "ligurio",
+                "repo": "awesome-openbsd",
+                "stars": 493
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Awesome BSD",
+              "description": "Covers mainly BSD OS variants, and groups to discuss BSD with across social media.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 33993568,
+                "language": null,
+                "last_commit": "2026-04-02T14:50:04Z",
+                "owner": "DiscoverBSD",
+                "repo": "awesome-bsd",
+                "stars": 429
               }
             }
           ],
-          "repo_info": {
-            "archived": true,
-            "language": "JavaScript",
-            "last_commit": "2023-01-03T10:49:48Z",
-            "owner": "atom",
-            "repo": "atom",
-            "stars": 60778
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Vim - Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as \"vi\" with most UNIX systems and with Apple OS X.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Vim Script",
-            "last_commit": "2026-08-17T21:28:33Z",
-            "owner": "vim",
-            "repo": "vim",
-            "stars": 40762
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Micro - Micro is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T01:12:05Z",
-            "owner": "micro-editor",
-            "repo": "micro",
-            "stars": 29372
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Spacemacs - A community-driven Emacs distribution The best editor is neither Emacs nor Vim, it's Emacs and Vim!",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Emacs Lisp",
-            "last_commit": "2026-08-18T05:52:08Z",
-            "owner": "syl20bnr",
-            "repo": "spacemacs",
-            "stars": 24555
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Kakoune - Modal editor · Faster as in less keystrokes · Multiple selections · Orthogonal design",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-10T23:11:09Z",
-            "owner": "mawww",
-            "repo": "kakoune",
-            "stars": 11027
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Emacs - An extensible, customizable, free/libre text editor, at its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Emacs Lisp",
-            "last_commit": "2026-08-18T10:30:51Z",
-            "owner": "emacs-mirror",
-            "repo": "emacs",
-            "stars": 5163
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Featherpad - FeatherPad is a lightweight Qt5 plain-text editor. It is independent of any desktop environment and has: Drag-and-drop support, including tab detachment and attachment, Instant highlighting of found matches when searching, A docked window for text replacement and much more.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-07T18:01:49Z",
-            "owner": "tsujan",
-            "repo": "FeatherPad",
-            "stars": 509
-          }
-        }
-      ],
-      "title": "Editors"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "nnn - nnn is a fast and resource-sensitive file browser which integrates well with your DE and favorite GUI utilities, works with the desktop opener, supports bookmarks, has smart navigation shortcuts, has navigate-as-you-type mode, disk usage analyzer mode, comprehensive file details and much more.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-17T16:17:54Z",
-            "owner": "jarun",
-            "repo": "nnn",
-            "stars": 21806
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "ranger - ranger is a file manager with VI key bindings. It provides a minimalistic yet nice curses interface with a view on the directory hierarchy. The secondary task of ranger is to psychically guess which program you want to use for opening particular files.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-15T07:36:52Z",
-            "owner": "ranger",
-            "repo": "ranger",
-            "stars": 17351
-          }
-        }
-      ],
-      "title": "File Managers"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Zerotier - ZeroTier can be used for on-premise network virtualization, as a peer to peer VPN for mobile teams, for hybrid or multi-data-center cloud deployments, or just about anywhere else secure software defined virtual networking is useful. It's a Global Ethernet Switch!",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-03T17:28:38Z",
-            "owner": "zerotier",
-            "repo": "ZeroTierOne",
-            "stars": 17021
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Mosh - Mosh is a remote shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-03-22T20:20:13Z",
-            "owner": "mobile-shell",
-            "repo": "mosh",
-            "stars": 14365
-          }
-        }
-      ],
-      "title": "Network Tools"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "VLC - VLC media player is a highly portable multimedia player for various audio and video formats as well as DVD's, VCD's, and various streaming protocols. It can also be used as a server to stream in unicast or multicast in IPv4 or IPv6 on a high-bandwidth network. VLC also has the ability to transcode media on-the-fly for streaming or saving to disk.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-18T09:25:51Z",
-            "owner": "videolan",
-            "repo": "vlc",
-            "stars": 19356
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Pianobar - Pianobar is a free/open-source, console-based client for the personalized online radio Pandora.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "C",
-            "last_commit": "2025-12-05T09:34:14Z",
-            "owner": "PromyLOPh",
-            "repo": "pianobar",
-            "stars": 1762
-          }
-        }
-      ],
-      "title": "Media Players"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Fail2ban - Fail2Ban scans log files like /var/log/auth.log and bans IP addresses conducting too many failed login attempts. It does this by updating system firewall rules to reject new connections from those IP addresses, for a configurable amount of time. Fail2Ban comes out-of-the-box ready to read many standard log files, such as those for sshd and Apache, and is easily configured to read any log file of your choosing, for any error you wish.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T08:53:06Z",
-            "owner": "fail2ban",
-            "repo": "fail2ban",
-            "stars": 18410
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Vuls - Vuls is open-source, agent-less vulnerability scanner based on information from NVD, OVAL, etc.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T06:39:40Z",
-            "owner": "future-architect",
-            "repo": "vuls",
-            "stars": 12232
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Bastille - Bastille is an open-source system for automating deployment and management of containerized applications on FreeBSD.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Shell",
-            "last_commit": "2026-08-18T03:28:44Z",
-            "owner": "BastilleBSD",
-            "repo": "bastille",
-            "stars": 1095
-          }
-        }
-      ],
-      "title": "Security"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Fish - Fish is a shell designed with user friendliness in mind, having many included features such as syntax highlighting and autosuggestions, with extensive tab autocompletion, it is a very interesting take on a POSIX shell.",
-          "children": [
-            {
-              "node_type": "item",
-              "title": "",
-              "description": "Oh-My-Fish - Oh My Fish is an open source, framework which allows for the installation of plugins that extend the functionality of fish. Can be installed via git or shellscript.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": "Shell",
-                "last_commit": "2026-05-19T18:17:02Z",
-                "owner": "oh-my-fish",
-                "repo": "oh-my-fish",
-                "stars": 11374
-              }
-            }
-          ],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-17T02:22:22Z",
-            "owner": "fish-shell",
-            "repo": "fish-shell",
-            "stars": 34033
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Elvish - Elvish is a friendly interactive shell and an expressive programming language. It runs on Linux, BSDs, macOS and Windows. Despite its pre-1.0 status, it is already suitable for most daily interactive use.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-03-31T22:04:07Z",
-            "owner": "elves",
-            "repo": "elvish",
-            "stars": 6358
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Osh - Oil-Shell is a new shell intended to replace bash, with a built in language called oil language. It is largely compatible with bash scripts.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-05-31T03:03:03Z",
-            "owner": "oils-for-unix",
-            "repo": "oils",
-            "stars": 3381
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "csh - The C Shell or csh is the default Shell in NetBSD and OpenBSD, It was written by Bill Joy in the late 70's and is one of the oldest continuously developed shells. Development has transferred entirely to tcsh.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-05-21T12:37:01Z",
-            "owner": "tcsh-org",
-            "repo": "tcsh",
-            "stars": 288
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "tcsh - tcsh is the continuation and successor to csh and expands on its functionalities and capabilities. It is the default root shell on FreeBSD though not its default user shell, and can be installed on the other major BSD's.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-05-21T12:37:01Z",
-            "owner": "tcsh-org",
-            "repo": "tcsh",
-            "stars": 288
-          }
-        },
-        {
+          "description": "Other Awesome BSD lists that can shed light on other parts of BSD.",
           "node_type": "group",
-          "title": "",
-          "description": "Bash - The GNU Bourne-Again SHell or bash shell, is typically the default shell available on Linux distributions is available for BSD also, it supports advanced scripting features and is very extensible. Highly reccomended for people trying BSD to ease transition into the OS.",
-          "children": [
-            {
-              "node_type": "item",
-              "title": "",
-              "description": "Oh-My-Bash - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration. Can be installed via git or shellscript if not in Ports.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": "Shell",
-                "last_commit": "2026-08-01T07:13:22Z",
-                "owner": "ohmybash",
-                "repo": "oh-my-bash",
-                "stars": 7647
-              }
-            }
-          ]
-        },
-        {
-          "node_type": "group",
-          "title": "",
-          "description": "Zsh - Zsh is an extension of the Bourne Shell (bsh) and includes many improvements such as autocorrect, autocompletion, and is extensible with a great deal of many features. Theming is very popular with Zsh. It is the Default Shell on MacOS.",
-          "children": [
-            {
-              "node_type": "item",
-              "title": "",
-              "description": "Oh-My-Zsh - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration and themes. Can be installed via git or shellscript if not in Ports. The original oh-my-framework.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "language": "Shell",
-                "last_commit": "2026-08-17T21:45:08Z",
-                "owner": "ohmyzsh",
-                "repo": "ohmyzsh",
-                "stars": 189237
-              }
-            }
-          ]
+          "title": "Other Awesome Lists"
         }
       ],
-      "title": "UNIX Shells"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Bleachbit - When your computer is getting full, BleachBit quickly frees disk space. When your information is only your business, BleachBit guards your privacy. With BleachBit you can free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk you didn't know was there. Designed for Linux and Windows systems, it wipes clean thousands of applications including Firefox, Adobe Flash, Google Chrome, Opera, and more.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T02:09:11Z",
-            "owner": "bleachbit",
-            "repo": "bleachbit",
-            "stars": 6608
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "",
-          "description": "Crochet - Crochet is a tool for building bootable FreeBSD images for ARM development boards. This tool was formerly known as \"freebsd-beaglebone\" or \"beaglebsd\" as the original work was done for BeagleBone. But it now supports more boards and should easily extend to support many more.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Shell",
-            "last_commit": "2026-06-27T15:46:50Z",
-            "owner": "freebsd",
-            "repo": "crochet",
-            "stars": 633
-          }
-        }
-      ],
-      "title": "Utilities"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Community"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Forums:"
-    },
-    {
-      "description": "Other Awesome BSD lists that can shed light on other parts of BSD.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Awesome UNIX",
-          "description": "covers the variety of UNIX likes and has a section for BSD.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-07-29T20:00:04Z",
-            "owner": "sirredbeard",
-            "repo": "awesome-unix",
-            "stars": 1768
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Awesome OpenBSD",
-          "description": "A List of resources related to the Open BSD Operating System.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2025-05-05T08:44:07Z",
-            "owner": "ligurio",
-            "repo": "awesome-openbsd",
-            "stars": 493
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Awesome BSD",
-          "description": "Covers mainly BSD OS variants, and groups to discuss BSD with across social media.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-04-02T14:50:04Z",
-            "owner": "DiscoverBSD",
-            "repo": "awesome-bsd",
-            "stars": 429
-          }
-        }
-      ],
-      "title": "Other Awesome Lists"
-    },
-    {
-      "description": "The format is pretty straightforward:\n\n\nThis second block is one tab over, to make sure that the icons line up, the links in this block all go to either: Freshports.org, pkgsrc.se, or openports.se. Freshports for FreeBSD, pkgsrc for Dragonfly and NetBSD, and Openports for OpenBSD. If the BSD in question doesn't have a port available in any one or all of the sites, remove the whole object. Please insert the if the program is terminal only to clarify where the program can be used, either on a window manager desktop or command line.\nother information across the list is also welcome, in case you have a new forum, or source of BSD info to add to the appropriate place.",
-      "items": [],
-      "title": "Guidelines to contribute"
+      "title": "OpenBSD"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T11:02:31.591Z",
+    "last_updated": "2026-08-19T11:02:18.290Z",
     "original_repository": "SaintFenix/Awesome-BSD-Ports-Programs-And-Projects",
     "original_repository_sha": "e54273634033640d7f95e40274c9ff987c99b25e",
     "enhanced_repository": "enhansome/enhansome-Awesome-BSD-Ports-Programs-And-Projects",
