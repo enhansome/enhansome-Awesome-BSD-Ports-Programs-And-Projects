@@ -14,12 +14,23 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Audio Editor                                     ",
+                    "homepage": "https://wiki.audacityteam.org/wiki/For_Developers",
                     "id": 32921736,
                     "language": "C++",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-08-28T15:25:10Z",
+                    "open_issues": 1676,
                     "owner": "audacity",
                     "repo": "audacity",
-                    "stars": 17650
+                    "stars": 17653,
+                    "topics": [
+                      "audio",
+                      "cross-platform",
+                      "editor",
+                      "gplv2",
+                      "wxwidgets-applications"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -30,12 +41,24 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": ":tangerine: Clementine Music Player",
+                    "homepage": "https://www.clementine-player.org/",
                     "id": 14979312,
                     "language": "C++",
+                    "license": "GPL-3.0",
                     "last_commit": "2026-08-27T06:51:53Z",
+                    "open_issues": 2438,
                     "owner": "clementine-player",
                     "repo": "Clementine",
-                    "stars": 4242
+                    "stars": 4242,
+                    "topics": [
+                      "c-plus-plus",
+                      "linux",
+                      "mac",
+                      "music",
+                      "qt",
+                      "windows"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -53,12 +76,22 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A modern replacement for ‘ls’.",
+                    "homepage": "https://the.exa.website/",
                     "id": 20060596,
                     "language": "Rust",
+                    "license": "MIT",
                     "last_commit": "2024-09-24T15:18:09Z",
+                    "open_issues": 213,
                     "owner": "ogham",
                     "repo": "exa",
-                    "stars": 24444
+                    "stars": 24443,
+                    "topics": [
+                      "command-line",
+                      "files",
+                      "ls",
+                      "rust"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -69,12 +102,25 @@
                   "children": [],
                   "repo_info": {
                     "archived": true,
+                    "description": "🖼️  A command-line system information tool written in bash 3.2+",
+                    "homepage": null,
                     "id": 48795298,
                     "language": "Shell",
+                    "license": "MIT",
                     "last_commit": "2024-07-19T20:19:01Z",
+                    "open_issues": 467,
                     "owner": "dylanaraps",
                     "repo": "neofetch",
-                    "stars": 23698
+                    "stars": 23698,
+                    "topics": [
+                      "bash",
+                      "command-line",
+                      "commandline",
+                      "distro",
+                      "neofetch",
+                      "screenshot",
+                      "script"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -85,12 +131,26 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons. :tada:",
+                    "homepage": null,
                     "id": 95798441,
                     "language": "Ruby",
+                    "license": "MIT",
                     "last_commit": "2026-07-27T11:41:05Z",
+                    "open_issues": 87,
                     "owner": "athityakumar",
                     "repo": "colorls",
-                    "stars": 5133
+                    "stars": 5133,
+                    "topics": [
+                      "cli",
+                      "color",
+                      "eye-candy",
+                      "gem",
+                      "icons",
+                      "ls",
+                      "ruby",
+                      "terminal"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -110,12 +170,27 @@
                       "children": [],
                       "repo_info": {
                         "archived": true,
+                        "description": "The Discord terminal client you never knew you wanted.",
+                        "homepage": null,
                         "id": 165042306,
                         "language": "Go",
+                        "license": "BSD-3-Clause",
                         "last_commit": "2021-12-16T11:27:51Z",
+                        "open_issues": 60,
                         "owner": "Bios-Marcel",
                         "repo": "cordless",
-                        "stars": 1698
+                        "stars": 1698,
+                        "topics": [
+                          "alternative",
+                          "cli",
+                          "client",
+                          "commandline",
+                          "discord",
+                          "discordgo",
+                          "terminal",
+                          "tui",
+                          "tview"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     },
@@ -126,12 +201,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Cutegram is a telegram client by Aseman Land. It's forked from sigram.",
+                        "homepage": "http://aseman.co/cutegram",
                         "id": 28384386,
                         "language": "QML",
+                        "license": "GPL-3.0",
                         "last_commit": "2023-03-08T13:30:40Z",
+                        "open_issues": 166,
                         "owner": "Aseman-Land",
                         "repo": "Cutegram",
-                        "stars": 382
+                        "stars": 382,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     }
@@ -149,12 +229,25 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+                        "homepage": "https://mattermost.com",
                         "id": 37448451,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-28T20:58:26Z",
+                        "license": "NOASSERTION",
+                        "last_commit": "2026-08-29T02:05:43Z",
+                        "open_issues": 997,
                         "owner": "mattermost",
                         "repo": "mattermost",
-                        "stars": 38934
+                        "stars": 38936,
+                        "topics": [
+                          "collaboration",
+                          "golang",
+                          "hacktoberfest",
+                          "mattermost",
+                          "monorepo",
+                          "react",
+                          "react-native"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     },
@@ -165,12 +258,27 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "A modern IRC server (daemon/ircd) written in Go.",
+                        "homepage": "https://ergo.chat/",
                         "id": 55980660,
                         "language": "Go",
+                        "license": "MIT",
                         "last_commit": "2026-08-27T03:08:26Z",
+                        "open_issues": 202,
                         "owner": "ergochat",
                         "repo": "ergo",
-                        "stars": 3311
+                        "stars": 3311,
+                        "topics": [
+                          "daemon",
+                          "irc",
+                          "irc-daemon",
+                          "irc-server",
+                          "ircd",
+                          "ircv3",
+                          "ircv3-support",
+                          "sasl",
+                          "server"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     },
@@ -181,12 +289,30 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Free, portable and lightweight Internet Relay Chat server",
+                        "homepage": "http://ngircd.barton.de/",
                         "id": 3093688,
                         "language": "C",
+                        "license": "GPL-2.0",
                         "last_commit": "2026-07-12T16:22:30Z",
+                        "open_issues": 31,
                         "owner": "ngircd",
                         "repo": "ngircd",
-                        "stars": 574
+                        "stars": 574,
+                        "topics": [
+                          "bsd",
+                          "c",
+                          "chat",
+                          "daemon",
+                          "internet-relay-chat",
+                          "irc",
+                          "ircd",
+                          "linux",
+                          "macos",
+                          "ngircd",
+                          "server",
+                          "unix"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     },
@@ -197,12 +323,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "A lightweight, high-performance internet relay chat daemon.",
+                        "homepage": "https://www.ircd-hybrid.org/",
                         "id": 15657361,
                         "language": "C",
+                        "license": "GPL-2.0",
                         "last_commit": "2026-08-27T20:35:13Z",
+                        "open_issues": 1,
                         "owner": "ircd-hybrid",
                         "repo": "ircd-hybrid",
-                        "stars": 200
+                        "stars": 200,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     }
@@ -220,12 +351,38 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, twitch, ssh-chat, zulip, whatsapp, keybase, matrix, microsoft teams, nextcloud, mumble, vk and more with REST API (mattermost not required!)",
+                        "homepage": null,
                         "id": 44820350,
                         "language": "Go",
+                        "license": "Apache-2.0",
                         "last_commit": "2024-12-12T00:20:34Z",
+                        "open_issues": 342,
                         "owner": "42wim",
                         "repo": "matterbridge",
-                        "stars": 7554
+                        "stars": 7554,
+                        "topics": [
+                          "bridge",
+                          "counter-strike",
+                          "discord",
+                          "facebook-messenger",
+                          "gitter",
+                          "irc",
+                          "matrix",
+                          "mattermost",
+                          "microsoft-teams",
+                          "minecraft-chat",
+                          "mumble",
+                          "nextcloud",
+                          "rocketchat",
+                          "slack",
+                          "telegram",
+                          "twitch",
+                          "vk",
+                          "whatsapp",
+                          "xmpp",
+                          "zulip"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     },
@@ -236,12 +393,27 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "An IRC to other chat networks gateway :bee:",
+                        "homepage": "https://www.bitlbee.org/",
                         "id": 29792084,
                         "language": "C",
+                        "license": "GPL-2.0",
                         "last_commit": "2025-10-05T12:07:28Z",
+                        "open_issues": 7,
                         "owner": "bitlbee",
                         "repo": "bitlbee",
-                        "stars": 644
+                        "stars": 644,
+                        "topics": [
+                          "bitlbee",
+                          "c",
+                          "chat",
+                          "instant-messaging",
+                          "irc",
+                          "irc-server",
+                          "jabber",
+                          "libpurple",
+                          "twitter"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     }
@@ -259,12 +431,32 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "The extensible chat client.",
+                        "homepage": "https://weechat.org",
                         "id": 17359210,
                         "language": "C",
+                        "license": "GPL-3.0",
                         "last_commit": "2026-08-28T16:54:08Z",
+                        "open_issues": 439,
                         "owner": "weechat",
                         "repo": "weechat",
-                        "stars": 3372
+                        "stars": 3372,
+                        "topics": [
+                          "c",
+                          "chat",
+                          "client",
+                          "extensible",
+                          "irc",
+                          "javascript",
+                          "lua",
+                          "perl",
+                          "php",
+                          "python",
+                          "ruby",
+                          "scheme",
+                          "scripting",
+                          "tcl"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     },
@@ -275,12 +467,26 @@
                       "children": [],
                       "repo_info": {
                         "archived": true,
+                        "description": "GTK+ IRC client",
+                        "homepage": "https://hexchat.github.io",
                         "id": 4994785,
                         "language": "C",
+                        "license": "GPL-2.0",
                         "last_commit": "2024-08-19T02:29:21Z",
+                        "open_issues": 768,
                         "owner": "hexchat",
                         "repo": "hexchat",
-                        "stars": 3231
+                        "stars": 3231,
+                        "topics": [
+                          "c",
+                          "gtk",
+                          "hexchat",
+                          "irc",
+                          "irc-client",
+                          "linux",
+                          "meson",
+                          "windows"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     },
@@ -291,12 +497,26 @@
                       "children": [],
                       "repo_info": {
                         "archived": true,
+                        "description": "GTK+ IRC client",
+                        "homepage": "https://hexchat.github.io",
                         "id": 4994785,
                         "language": "C",
+                        "license": "GPL-2.0",
                         "last_commit": "2024-08-19T02:29:21Z",
+                        "open_issues": 768,
                         "owner": "hexchat",
                         "repo": "hexchat",
-                        "stars": 3231
+                        "stars": 3231,
+                        "topics": [
+                          "c",
+                          "gtk",
+                          "hexchat",
+                          "irc",
+                          "irc-client",
+                          "linux",
+                          "meson",
+                          "windows"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     },
@@ -307,12 +527,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "User-friendly and fully-featured IRC client",
+                        "homepage": "https://invent.kde.org/network/konversation",
                         "id": 42721854,
                         "language": "C++",
+                        "license": null,
                         "last_commit": "2026-08-27T11:25:55Z",
+                        "open_issues": 0,
                         "owner": "KDE",
                         "repo": "konversation",
-                        "stars": 57
+                        "stars": 57,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     },
@@ -323,12 +548,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "A simple IRC client",
+                        "homepage": null,
                         "id": 10369065,
                         "language": "C++",
+                        "license": null,
                         "last_commit": "2013-05-29T20:51:04Z",
+                        "open_issues": 0,
                         "owner": "mbp",
                         "repo": "lostirc",
-                        "stars": 8
+                        "stars": 8,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     }
@@ -346,12 +576,35 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Modern XMPP (\"Jabber\") Chat Client using GTK/Vala",
+                        "homepage": "https://dino.im/",
                         "id": 83687700,
                         "language": "Vala",
+                        "license": "GPL-3.0",
                         "last_commit": "2026-08-21T16:19:24Z",
+                        "open_issues": 680,
                         "owner": "dino",
                         "repo": "dino",
-                        "stars": 2480
+                        "stars": 2480,
+                        "topics": [
+                          "chat",
+                          "dino",
+                          "groupchat",
+                          "gtk",
+                          "gtk4",
+                          "jabber",
+                          "jabber-client",
+                          "jingle",
+                          "linux-desktop",
+                          "messenger",
+                          "omemo",
+                          "p2p",
+                          "vala",
+                          "voip",
+                          "xml",
+                          "xmpp",
+                          "xmpp-client"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     }
@@ -374,12 +627,25 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Deduplicating archiver with compression and authenticated encryption.",
+                    "homepage": "https://www.borgbackup.org/",
                     "id": 35517126,
                     "language": "Python",
-                    "last_commit": "2026-08-28T19:43:15Z",
+                    "license": "NOASSERTION",
+                    "last_commit": "2026-08-28T22:17:03Z",
+                    "open_issues": 228,
                     "owner": "borgbackup",
                     "repo": "borg",
-                    "stars": 13660
+                    "stars": 13660,
+                    "topics": [
+                      "backup",
+                      "borgbackup",
+                      "compression",
+                      "deduplication",
+                      "encryption",
+                      "python",
+                      "ssh"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -390,12 +656,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "BackupPC is a high-performance, enterprise-grade system for backing up to a server's disk.",
+                    "homepage": null,
                     "id": 9079569,
                     "language": "Perl",
+                    "license": "GPL-3.0",
                     "last_commit": "2026-05-31T11:48:27Z",
+                    "open_issues": 52,
                     "owner": "backuppc",
                     "repo": "backuppc",
-                    "stars": 1624
+                    "stars": 1624,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -413,12 +684,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Lumina Desktop Environment",
+                    "homepage": "http://lumina-desktop.org",
                     "id": 23668497,
                     "language": "C++",
+                    "license": "BSD-3-Clause",
                     "last_commit": "2025-07-18T20:47:44Z",
+                    "open_issues": 95,
                     "owner": "lumina-desktop",
                     "repo": "lumina",
-                    "stars": 590
+                    "stars": 590,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -429,12 +705,23 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "🖼️ Fast dynamic tiling X11 window manager",
+                    "homepage": "https://bbs.archlinux.org/viewtopic.php?id=189060",
                     "id": 21003064,
                     "language": "C",
+                    "license": "NOASSERTION",
                     "last_commit": "2024-06-03T23:09:57Z",
+                    "open_issues": 22,
                     "owner": "sulami",
                     "repo": "FrankenWM",
-                    "stars": 286
+                    "stars": 286,
+                    "topics": [
+                      "c",
+                      "hacktoberfest",
+                      "tiling-window-manager",
+                      "x11",
+                      "xcb"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -454,12 +741,23 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Visual Studio Code",
+                        "homepage": "https://code.visualstudio.com",
                         "id": 41881900,
                         "language": "TypeScript",
-                        "last_commit": "2026-08-28T21:11:30Z",
+                        "license": "MIT",
+                        "last_commit": "2026-08-29T04:48:39Z",
+                        "open_issues": 20178,
                         "owner": "microsoft",
                         "repo": "vscode",
-                        "stars": 189754
+                        "stars": 189757,
+                        "topics": [
+                          "editor",
+                          "electron",
+                          "microsoft",
+                          "typescript",
+                          "visual-studio-code"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     },
@@ -470,12 +768,21 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "A fast and lightweight IDE",
+                        "homepage": "https://www.geany.org",
                         "id": 2532922,
                         "language": "C",
+                        "license": "GPL-2.0",
                         "last_commit": "2026-08-03T21:34:14Z",
+                        "open_issues": 1267,
                         "owner": "geany",
                         "repo": "geany",
-                        "stars": 3703
+                        "stars": 3703,
+                        "topics": [
+                          "geany",
+                          "ide",
+                          "text-editor"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     }
@@ -498,12 +805,25 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Vim-fork focused on extensibility and usability",
+                    "homepage": "https://neovim.io",
                     "id": 16408992,
                     "language": "Vim Script",
-                    "last_commit": "2026-08-28T17:34:31Z",
+                    "license": "NOASSERTION",
+                    "last_commit": "2026-08-29T03:22:51Z",
+                    "open_issues": 1867,
                     "owner": "neovim",
                     "repo": "neovim",
-                    "stars": 102001
+                    "stars": 102002,
+                    "topics": [
+                      "api",
+                      "c",
+                      "lua",
+                      "neovim",
+                      "nvim",
+                      "text-editor",
+                      "vim"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -519,24 +839,42 @@
                       "children": [],
                       "repo_info": {
                         "archived": true,
+                        "description": "A collection of user interfaces for Atom IDE.",
+                        "homepage": "http://ide.atom.io",
                         "id": 86409404,
                         "language": "JavaScript",
+                        "license": "NOASSERTION",
                         "last_commit": "2018-11-15T21:35:39Z",
+                        "open_issues": 81,
                         "owner": "facebookarchive",
                         "repo": "atom-ide-ui",
-                        "stars": 931
+                        "stars": 931,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     }
                   ],
                   "repo_info": {
                     "archived": true,
+                    "description": ":atom: The hackable text editor",
+                    "homepage": "https://atom.io",
                     "id": 3228505,
                     "language": "JavaScript",
+                    "license": "MIT",
                     "last_commit": "2023-01-03T10:49:48Z",
+                    "open_issues": 992,
                     "owner": "atom",
                     "repo": "atom",
-                    "stars": 60768
+                    "stars": 60767,
+                    "topics": [
+                      "atom",
+                      "editor",
+                      "electron",
+                      "javascript",
+                      "linux",
+                      "macos",
+                      "windows"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -547,12 +885,22 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "The official Vim repository",
+                    "homepage": "https://www.vim.org",
                     "id": 40997482,
                     "language": "Vim Script",
-                    "last_commit": "2026-08-28T17:31:20Z",
+                    "license": "Vim",
+                    "last_commit": "2026-08-29T02:34:08Z",
+                    "open_issues": 1636,
                     "owner": "vim",
                     "repo": "vim",
-                    "stars": 40818
+                    "stars": 40818,
+                    "topics": [
+                      "c",
+                      "cross-platform",
+                      "text-editor",
+                      "vim"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -563,12 +911,26 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A modern and intuitive terminal-based text editor",
+                    "homepage": "https://micro-editor.github.io",
                     "id": 53632140,
                     "language": "Go",
-                    "last_commit": "2026-08-28T03:01:32Z",
+                    "license": "MIT",
+                    "last_commit": "2026-08-29T00:31:23Z",
+                    "open_issues": 986,
                     "owner": "micro-editor",
                     "repo": "micro",
-                    "stars": 29455
+                    "stars": 29456,
+                    "topics": [
+                      "command-line",
+                      "cross-platform",
+                      "editor",
+                      "go",
+                      "golang",
+                      "micro",
+                      "terminal",
+                      "text-editor"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -579,12 +941,23 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!",
+                    "homepage": "http://spacemacs.org",
                     "id": 7212645,
                     "language": "Emacs Lisp",
+                    "license": "GPL-3.0",
                     "last_commit": "2026-08-23T17:11:07Z",
+                    "open_issues": 61,
                     "owner": "syl20bnr",
                     "repo": "spacemacs",
-                    "stars": 24562
+                    "stars": 24562,
+                    "topics": [
+                      "community-driven",
+                      "configuration",
+                      "emacs",
+                      "spacemacs",
+                      "vim"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -595,12 +968,24 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "mawww's experiment for a better code editor",
+                    "homepage": "http://kakoune.org",
                     "id": 2701888,
                     "language": "C++",
+                    "license": "Unlicense",
                     "last_commit": "2026-08-19T07:32:53Z",
+                    "open_issues": 920,
                     "owner": "mawww",
                     "repo": "kakoune",
-                    "stars": 11036
+                    "stars": 11036,
+                    "topics": [
+                      "c-plus-plus",
+                      "console-application",
+                      "kakoune",
+                      "modal-editing",
+                      "text-editor",
+                      "vim"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -611,12 +996,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Mirror of GNU Emacs",
+                    "homepage": "http://www.gnu.org/software/emacs/",
                     "id": 22711712,
                     "language": "Emacs Lisp",
+                    "license": "GPL-3.0",
                     "last_commit": "2026-08-28T16:27:50Z",
+                    "open_issues": 16,
                     "owner": "emacs-mirror",
                     "repo": "emacs",
-                    "stars": 5171
+                    "stars": 5171,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -627,12 +1017,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Lightweight Qt Plain-Text Editor for Linux",
+                    "homepage": null,
                     "id": 54059569,
                     "language": "C++",
+                    "license": "GPL-3.0",
                     "last_commit": "2026-08-07T18:01:49Z",
+                    "open_issues": 1,
                     "owner": "tsujan",
                     "repo": "FeatherPad",
-                    "stars": 510
+                    "stars": 510,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -650,12 +1045,38 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "n³ The unorthodox terminal file manager",
+                    "homepage": null,
                     "id": 66150122,
                     "language": "C",
-                    "last_commit": "2026-08-26T22:09:22Z",
+                    "license": "BSD-2-Clause",
+                    "last_commit": "2026-08-29T00:23:16Z",
+                    "open_issues": 4,
                     "owner": "jarun",
                     "repo": "nnn",
-                    "stars": 21841
+                    "stars": 21842,
+                    "topics": [
+                      "android",
+                      "batch-rename",
+                      "c",
+                      "cli",
+                      "command-line",
+                      "developer-tools",
+                      "disk-usage",
+                      "file-manager",
+                      "file-preview",
+                      "file-search",
+                      "filesystem",
+                      "launcher",
+                      "multi-platform",
+                      "ncurses",
+                      "productivity",
+                      "raspberry-pi",
+                      "terminal",
+                      "tui",
+                      "vim",
+                      "wsl"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -666,12 +1087,23 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A VIM-inspired filemanager for the console",
+                    "homepage": "https://ranger.fm",
                     "id": 218157,
                     "language": "Python",
+                    "license": "GPL-3.0",
                     "last_commit": "2026-08-15T07:36:52Z",
+                    "open_issues": 898,
                     "owner": "ranger",
                     "repo": "ranger",
-                    "stars": 17374
+                    "stars": 17374,
+                    "topics": [
+                      "console",
+                      "file-launcher",
+                      "file-manager",
+                      "file-preview",
+                      "vim"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -689,12 +1121,28 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Cross-platform port of Arx Fatalis, a first-person role-playing game",
+                    "homepage": "https://arx-libertatis.org/",
                     "id": 1261922,
                     "language": "C++",
+                    "license": "GPL-3.0",
                     "last_commit": "2024-08-22T17:58:15Z",
+                    "open_issues": 70,
                     "owner": "arx",
                     "repo": "ArxLibertatis",
-                    "stars": 1082
+                    "stars": 1083,
+                    "topics": [
+                      "arx-fatalis",
+                      "c-plus-plus",
+                      "cmake",
+                      "cross-platform",
+                      "dungeon-crawler",
+                      "game",
+                      "game-engine-3d",
+                      "immersive-sim",
+                      "opengl",
+                      "role-playing-game"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -712,12 +1160,25 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A Smart Ethernet Switch for Earth",
+                    "homepage": "https://zerotier.com",
                     "id": 9647856,
                     "language": "C++",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-08-03T17:28:38Z",
+                    "open_issues": 397,
                     "owner": "zerotier",
                     "repo": "ZeroTierOne",
-                    "stars": 17052
+                    "stars": 17053,
+                    "topics": [
+                      "decentralization",
+                      "networking",
+                      "peer-to-peer",
+                      "sd-wan",
+                      "sdn",
+                      "virtual-network",
+                      "vpn"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -728,12 +1189,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Mobile Shell",
+                    "homepage": "https://mosh.org",
                     "id": 1234783,
                     "language": "C++",
+                    "license": "GPL-3.0",
                     "last_commit": "2026-03-22T20:20:13Z",
+                    "open_issues": 226,
                     "owner": "mobile-shell",
                     "repo": "mosh",
-                    "stars": 14414
+                    "stars": 14416,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -751,12 +1217,25 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "VLC media player - plays everything, runs anywhere. Code here: https://code.videolan.org/videolan/vlc",
+                    "homepage": "http://www.videolan.org/vlc",
                     "id": 3299208,
                     "language": "C",
+                    "license": "GPL-2.0",
                     "last_commit": "2026-08-28T14:05:04Z",
+                    "open_issues": 2,
                     "owner": "videolan",
                     "repo": "vlc",
-                    "stars": 19464
+                    "stars": 19466,
+                    "topics": [
+                      "c",
+                      "framework",
+                      "gplv2",
+                      "lgpl",
+                      "multimedia",
+                      "open-source",
+                      "vlc"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -767,12 +1246,23 @@
                   "children": [],
                   "repo_info": {
                     "archived": true,
+                    "description": "Repository moved to codeberg.org, see below.",
+                    "homepage": "https://codeberg.org/purplesym/pianobar",
                     "id": 23892,
                     "language": "C",
+                    "license": "NOASSERTION",
                     "last_commit": "2025-12-05T09:34:14Z",
+                    "open_issues": 29,
                     "owner": "PromyLOPh",
                     "repo": "pianobar",
-                    "stars": 1762
+                    "stars": 1762,
+                    "topics": [
+                      "c",
+                      "cli-app",
+                      "music-player",
+                      "pandora",
+                      "pianobar"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -790,12 +1280,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Office and graphic art suite by KDE",
+                    "homepage": "https://invent.kde.org/office/calligra",
                     "id": 42719428,
                     "language": "C++",
-                    "last_commit": "2026-08-28T03:30:04Z",
+                    "license": "GPL-2.0",
+                    "last_commit": "2026-08-29T03:24:50Z",
+                    "open_issues": 0,
                     "owner": "KDE",
                     "repo": "calligra",
-                    "stars": 207
+                    "stars": 209,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -813,12 +1308,37 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Daemon to ban hosts that cause multiple authentication errors",
+                    "homepage": "http://www.fail2ban.org",
                     "id": 2476162,
                     "language": "Python",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-08-26T14:06:18Z",
+                    "open_issues": 270,
                     "owner": "fail2ban",
                     "repo": "fail2ban",
-                    "stars": 18497
+                    "stars": 18499,
+                    "topics": [
+                      "anti-bot",
+                      "attack-prevention",
+                      "ban-hosts",
+                      "ban-management",
+                      "bsd",
+                      "fail2ban",
+                      "gplv2",
+                      "hids",
+                      "ids",
+                      "intrusion-detection",
+                      "intrusion-prevention",
+                      "ips",
+                      "linux",
+                      "loganalyzer",
+                      "macos",
+                      "monitoring",
+                      "python",
+                      "security",
+                      "security-tools"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -829,12 +1349,38 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
+                    "homepage": "https://vuls.io/",
                     "id": 54808920,
                     "language": "Go",
+                    "license": "GPL-3.0",
                     "last_commit": "2026-08-28T08:47:42Z",
+                    "open_issues": 87,
                     "owner": "future-architect",
                     "repo": "vuls",
-                    "stars": 12246
+                    "stars": 12246,
+                    "topics": [
+                      "administrator",
+                      "cybersecurity",
+                      "freebsd",
+                      "go",
+                      "golang",
+                      "linux",
+                      "security",
+                      "security-audit",
+                      "security-automation",
+                      "security-hardening",
+                      "security-scanner",
+                      "security-tools",
+                      "security-vulnerability",
+                      "vulnerabilities",
+                      "vulnerability-assessment",
+                      "vulnerability-detection",
+                      "vulnerability-management",
+                      "vulnerability-scanner",
+                      "vulnerability-scanners",
+                      "vuls"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -845,12 +1391,28 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Bastille is an open-source system for automating deployment and management of containerized applications on FreeBSD.",
+                    "homepage": "https://bastillebsd.org",
                     "id": 123662721,
                     "language": "Shell",
+                    "license": "BSD-3-Clause",
                     "last_commit": "2026-08-27T00:26:42Z",
+                    "open_issues": 10,
                     "owner": "BastilleBSD",
                     "repo": "bastille",
-                    "stars": 1097
+                    "stars": 1097,
+                    "topics": [
+                      "automation",
+                      "bastille",
+                      "bastille-template",
+                      "bastille-templates",
+                      "containers",
+                      "deployment",
+                      "freebsd",
+                      "jail",
+                      "manage-freebsd-jails",
+                      "zfs"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -868,12 +1430,28 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A cross-platform, OpenGL terminal emulator.",
+                    "homepage": "https://alacritty.org",
                     "id": 51980455,
                     "language": "Rust",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-08-26T04:17:18Z",
+                    "open_issues": 338,
                     "owner": "alacritty",
                     "repo": "alacritty",
-                    "stars": 65543
+                    "stars": 65545,
+                    "topics": [
+                      "bsd",
+                      "gpu",
+                      "linux",
+                      "macos",
+                      "opengl",
+                      "rust",
+                      "terminal",
+                      "terminal-emulators",
+                      "vte",
+                      "windows"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -896,24 +1474,50 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "The Fish Shell Framework",
+                        "homepage": null,
                         "id": 41871628,
                         "language": "Shell",
+                        "license": "MIT",
                         "last_commit": "2026-05-19T18:17:02Z",
+                        "open_issues": 5,
                         "owner": "oh-my-fish",
                         "repo": "oh-my-fish",
-                        "stars": 11379
+                        "stars": 11380,
+                        "topics": [
+                          "fish",
+                          "fishshell",
+                          "fishshell-framework",
+                          "hacktoberfest",
+                          "oh-my-fish",
+                          "oh-my-zsh",
+                          "omf",
+                          "prompt",
+                          "shell",
+                          "terminal"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     }
                   ],
                   "repo_info": {
                     "archived": false,
+                    "description": "The user-friendly command line shell.",
+                    "homepage": "https://fishshell.com",
                     "id": 4279682,
                     "language": "Rust",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-08-28T19:05:51Z",
+                    "open_issues": 567,
                     "owner": "fish-shell",
                     "repo": "fish-shell",
-                    "stars": 34079
+                    "stars": 34082,
+                    "topics": [
+                      "fish",
+                      "rust",
+                      "shell",
+                      "terminal"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -924,12 +1528,22 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Powerful scripting language & versatile interactive shell",
+                    "homepage": "https://elv.sh/",
                     "id": 10717754,
                     "language": "Go",
+                    "license": "BSD-2-Clause",
                     "last_commit": "2026-03-31T22:04:07Z",
+                    "open_issues": 350,
                     "owner": "elves",
                     "repo": "elvish",
-                    "stars": 6364
+                    "stars": 6364,
+                    "topics": [
+                      "go",
+                      "programming-language",
+                      "shell",
+                      "unix"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -940,12 +1554,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Oils is our upgrade path from bash to a better language and runtime.  It's also for Python and JavaScript users who avoid shell!",
+                    "homepage": "https://oils.pub/",
                     "id": 73847171,
                     "language": "Python",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-05-31T03:03:03Z",
+                    "open_issues": 610,
                     "owner": "oils-for-unix",
                     "repo": "oils",
-                    "stars": 3385
+                    "stars": 3385,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -956,12 +1575,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "This is a read-only mirror of the tcsh code repository.",
+                    "homepage": "https://www.tcsh.org/",
                     "id": 80540178,
                     "language": "C",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-05-21T12:37:01Z",
+                    "open_issues": 32,
                     "owner": "tcsh-org",
                     "repo": "tcsh",
-                    "stars": 288
+                    "stars": 288,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -972,12 +1596,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "This is a read-only mirror of the tcsh code repository.",
+                    "homepage": "https://www.tcsh.org/",
                     "id": 80540178,
                     "language": "C",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-05-21T12:37:01Z",
+                    "open_issues": 32,
                     "owner": "tcsh-org",
                     "repo": "tcsh",
-                    "stars": 288
+                    "stars": 288,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -993,12 +1622,24 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "A delightful community-driven framework for managing your bash configuration, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.",
+                        "homepage": "https://ohmybash.github.io",
                         "id": 85459264,
                         "language": "Shell",
+                        "license": "MIT",
                         "last_commit": "2026-08-21T14:03:03Z",
+                        "open_issues": 162,
                         "owner": "ohmybash",
                         "repo": "oh-my-bash",
-                        "stars": 7667
+                        "stars": 7666,
+                        "topics": [
+                          "bash-configuration",
+                          "oh-my-bash",
+                          "productivity",
+                          "shell",
+                          "terminal",
+                          "theme"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     }
@@ -1016,12 +1657,33 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+                        "homepage": "https://ohmyz.sh",
                         "id": 291137,
                         "language": "Shell",
-                        "last_commit": "2026-08-25T14:40:25Z",
+                        "license": "MIT",
+                        "last_commit": "2026-08-29T00:43:45Z",
+                        "open_issues": 574,
                         "owner": "ohmyzsh",
                         "repo": "ohmyzsh",
-                        "stars": 189425
+                        "stars": 189428,
+                        "topics": [
+                          "cli",
+                          "cli-app",
+                          "oh-my-zsh",
+                          "oh-my-zsh-plugin",
+                          "oh-my-zsh-theme",
+                          "ohmyzsh",
+                          "plugin-framework",
+                          "plugins",
+                          "productivity",
+                          "shell",
+                          "terminal",
+                          "theme",
+                          "themes",
+                          "zsh",
+                          "zsh-configuration"
+                        ]
                       },
                       "first_seen": "2026-08-28T21:15:01.088Z"
                     }
@@ -1041,12 +1703,29 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "BleachBit system cleaner for Windows and Linux",
+                    "homepage": "https://www.bleachbit.org",
                     "id": 17578592,
                     "language": "Python",
+                    "license": "GPL-3.0",
                     "last_commit": "2026-08-26T14:51:46Z",
+                    "open_issues": 307,
                     "owner": "bleachbit",
                     "repo": "bleachbit",
-                    "stars": 6736
+                    "stars": 6739,
+                    "topics": [
+                      "antiforensics",
+                      "bleachbit",
+                      "ccleaner-alternative",
+                      "disk-cleaner",
+                      "gplv3",
+                      "gtk",
+                      "linux",
+                      "privacy",
+                      "python",
+                      "security",
+                      "windows"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 },
@@ -1057,12 +1736,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Build FreeBSD images for RaspberryPi, BeagleBone, PandaBoard, and others.",
+                    "homepage": null,
                     "id": 8840035,
                     "language": "Shell",
+                    "license": "BSD-2-Clause",
                     "last_commit": "2026-06-27T15:46:50Z",
+                    "open_issues": 43,
                     "owner": "freebsd",
                     "repo": "crochet",
-                    "stars": 633
+                    "stars": 633,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:15:01.088Z"
                 }
@@ -1085,12 +1769,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Desktop system for creators with a focus on simplicity, elegance, and usability. Based on FreeBSD. Less, but better!",
+                "homepage": null,
                 "id": 195640823,
                 "language": null,
+                "license": null,
                 "last_commit": "2024-07-09T19:26:33Z",
+                "open_issues": 135,
                 "owner": "helloSystem",
                 "repo": "hello",
-                "stars": 2464
+                "stars": 2464,
+                "topics": [
+                  "desktop",
+                  "elegance",
+                  "hellosystem",
+                  "simplicity",
+                  "usability"
+                ]
               },
               "first_seen": "2026-08-28T21:15:01.088Z"
             }
@@ -1108,12 +1803,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "FreeBSD ports tree (read-only mirror)",
+                "homepage": "https://www.FreeBSD.org/ports",
                 "id": 1803961,
                 "language": "Makefile",
-                "last_commit": "2026-08-28T21:10:10Z",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-29T01:10:10Z",
+                "open_issues": 82,
                 "owner": "freebsd",
                 "repo": "freebsd-ports",
-                "stars": 1197
+                "stars": 1197,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:15:01.088Z"
             }
@@ -1131,12 +1831,37 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "All the UNIX and UNIX-Like: Linux, BSD, macOS, Illumos, 9front, and more.",
+                "homepage": null,
                 "id": 111368115,
                 "language": null,
+                "license": "NOASSERTION",
                 "last_commit": "2026-07-29T20:00:04Z",
+                "open_issues": 3,
                 "owner": "sirredbeard",
                 "repo": "awesome-unix",
-                "stars": 1772
+                "stars": 1773,
+                "topics": [
+                  "awesome",
+                  "awesome-list",
+                  "bsd",
+                  "devuan",
+                  "freebsd",
+                  "illumos",
+                  "kernel",
+                  "linux",
+                  "linux-distribution",
+                  "macos",
+                  "minix",
+                  "netbsd",
+                  "openbsd",
+                  "plan9",
+                  "posix",
+                  "slackware",
+                  "solaris",
+                  "unix",
+                  "unix-philosophy"
+                ]
               },
               "first_seen": "2026-08-28T21:15:01.088Z"
             },
@@ -1147,12 +1872,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The curated list of awesome OpenBSD resources",
+                "homepage": "https://bsd.network/@openbsdnow",
                 "id": 65755474,
                 "language": null,
+                "license": null,
                 "last_commit": "2025-05-05T08:44:07Z",
+                "open_issues": 0,
                 "owner": "ligurio",
                 "repo": "awesome-openbsd",
-                "stars": 488
+                "stars": 488,
+                "topics": [
+                  "hosting",
+                  "jobs",
+                  "news",
+                  "openbsd",
+                  "openbsd-ports",
+                  "openbsd-resources",
+                  "openbsd-stats"
+                ]
               },
               "first_seen": "2026-08-28T21:15:01.088Z"
             },
@@ -1163,12 +1901,28 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A collection of awesome BSD related stuff",
+                "homepage": null,
                 "id": 33993568,
                 "language": null,
+                "license": null,
                 "last_commit": "2026-04-02T14:50:04Z",
+                "open_issues": 2,
                 "owner": "DiscoverBSD",
                 "repo": "awesome-bsd",
-                "stars": 429
+                "stars": 429,
+                "topics": [
+                  "awesome",
+                  "bsd",
+                  "bsd-news",
+                  "bsd-router",
+                  "freebsd",
+                  "netbsd",
+                  "openbsd",
+                  "opnsense",
+                  "pc-bsd",
+                  "pfsense"
+                ]
               },
               "first_seen": "2026-08-28T21:15:01.088Z"
             }
@@ -1186,12 +1940,22 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "A comprehensive guide to Markdown / Introduction to Markdown",
+                "homepage": "https://luong-komorebi.github.io/Markdown-Tutorial/",
                 "id": 61997992,
                 "language": null,
+                "license": null,
                 "last_commit": "2023-01-31T17:21:20Z",
+                "open_issues": 1,
                 "owner": "luong-komorebi",
                 "repo": "Markdown-Tutorial",
-                "stars": 586
+                "stars": 586,
+                "topics": [
+                  "guide",
+                  "markdown",
+                  "markdown-flavour",
+                  "markdown-tutorial"
+                ]
               },
               "first_seen": "2026-08-28T21:15:01.088Z"
             }
@@ -1205,15 +1969,28 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T21:15:01.088Z",
+    "last_updated": "2026-08-29T05:06:16.986Z",
     "original_repository_info": {
       "archived": false,
+      "description": "A Repo Detailing BSD Ports, Programs, and Projects.",
+      "homepage": null,
       "id": 308906271,
       "language": null,
+      "license": null,
       "last_commit": "2020-11-21T18:15:25Z",
+      "open_issues": 1,
       "owner": "SaintFenix",
       "repo": "Awesome-BSD-Ports-Programs-And-Projects",
-      "stars": 59
+      "stars": 59,
+      "topics": [
+        "awesome-list",
+        "awesome-lists",
+        "dragonflybsd",
+        "freebsd",
+        "freebsd-ports",
+        "netbsd",
+        "openbsd"
+      ]
     },
     "original_repository_sha": "e54273634033640d7f95e40274c9ff987c99b25e",
     "enhanced_repository": "enhansome/enhansome-Awesome-BSD-Ports-Programs-And-Projects",
