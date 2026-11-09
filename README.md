@@ -183,17 +183,17 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ### Audio
 
-* [![Open-Source Software][OSS Icon]](https://github.com/audacity/audacity) ⭐ 18,994 | 🐛 1,910 | 🌐 C++ | 📅 2026-11-06 [Audacity](http://www.audacityteam.org/) - Free, open source, cross-platform software for recording and editing sounds.
+* [![Open-Source Software][OSS Icon]](https://github.com/audacity/audacity) ⭐ 19,004 | 🐛 1,912 | 🌐 C++ | 📅 2026-11-09 [Audacity](http://www.audacityteam.org/) - Free, open source, cross-platform software for recording and editing sounds.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/audio/audacity/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/audio/audacity) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/audio/audacity) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/audio/audacity)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/clementine-player/Clementine) ⭐ 4,276 | 🐛 2,428 | 🌐 C++ | 📅 2026-11-08 [Clementine](https://www.clementine-player.org/) - Clementine is a multiplatform music player. It is inspired by Amarok 1.4, focusing on a fast and easy-to-use interface for searching and playing your music.
+* [![Open-Source Software][OSS Icon]](https://github.com/clementine-player/Clementine) ⭐ 4,276 | 🐛 2,428 | 🌐 C++ | 📅 2026-11-09 [Clementine](https://www.clementine-player.org/) - Clementine is a multiplatform music player. It is inspired by Amarok 1.4, focusing on a fast and easy-to-use interface for searching and playing your music.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/audio/clementine-player/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/clementine) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/clementine) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/audio/clementine)
 
 ### Command Line Utilities
 
-* [![Open-Source Software][OSS Icon]](https://github.com/ogham/exa) ⭐ 24,454 | 🐛 214 | 🌐 Rust | 📅 2024-09-24 [Exa](https://the.exa.website/) - exa is an improved file lister with more features and better defaults. It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git. And it’s small, fast, and just one single binary.
+* [![Open-Source Software][OSS Icon]](https://github.com/ogham/exa) ⭐ 24,451 | 🐛 214 | 🌐 Rust | 📅 2024-09-24 [Exa](https://the.exa.website/) - exa is an improved file lister with more features and better defaults. It uses colours to distinguish file types and metadata. It knows about symlinks, extended attributes, and Git. And it’s small, fast, and just one single binary.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/exa/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/exa) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/exa) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/exa) ![](img/termprog.png)
 
@@ -237,11 +237,11 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 #### Chat Server
 
-* [![Open-Source Software][OSS Icon]](https://github.com/mattermost/mattermost-server) ⭐ 39,557 | 🐛 1,107 | 🌐 TypeScript | 📅 2026-11-08 [Mattermost-Server](https://mattermost.com/) - Open source Slack-alternative in Golang and React.
+* [![Open-Source Software][OSS Icon]](https://github.com/mattermost/mattermost-server) ⭐ 39,563 | 🐛 1,114 | 🌐 TypeScript | 📅 2026-11-09 [Mattermost-Server](https://mattermost.com/) - Open source Slack-alternative in Golang and React.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/www/mattermost-server/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/mattermost-server) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/mattermost-server) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/mattermost-server) ![](img/termprog.png)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/oragono/oragono) ⭐ 3,357 | 🐛 213 | 🌐 Go | 📅 2026-11-01 [Oragono](https://oragono.io/) - Oragono is a modern IRC server written in Go. Its core design principles are: ,Being simple to set up and use, Combining the features of an ircd, a services framework, and a, bouncer (integrated account management, history storage, and bouncer functionality), Bleeding-edge IRCv3 support, suitable for use as an IRCv3 reference implementation, Highly customizable via a rehashable (i.e., reloadable at runtime) YAML config.
+* [![Open-Source Software][OSS Icon]](https://github.com/oragono/oragono) ⭐ 3,358 | 🐛 213 | 🌐 Go | 📅 2026-11-09 [Oragono](https://oragono.io/) - Oragono is a modern IRC server written in Go. Its core design principles are: ,Being simple to set up and use, Combining the features of an ircd, a services framework, and a, bouncer (integrated account management, history storage, and bouncer functionality), Bleeding-edge IRCv3 support, suitable for use as an IRCv3 reference implementation, Highly customizable via a rehashable (i.e., reloadable at runtime) YAML config.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/oragono/)  ![](img/termprog.png)
 
@@ -249,23 +249,23 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/ngircd/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/ngircd) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/ngircd) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/ngircd) ![](img/termprog.png)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/ircd-hybrid/ircd-hybrid) ⭐ 200 | 🐛 2 | 🌐 C | 📅 2026-11-08 [IRCD-Hybrid](https://www.ircd-hybrid.org/) - IRC (Internet Relay Chat) provides a way of communicating in real time with people. Generally, the user runs a client program to a server running a IRC server software. Hybrid ircd is such a server.
+* [![Open-Source Software][OSS Icon]](https://github.com/ircd-hybrid/ircd-hybrid) ⭐ 200 | 🐛 2 | 🌐 C | 📅 2026-11-09 [IRCD-Hybrid](https://www.ircd-hybrid.org/) - IRC (Internet Relay Chat) provides a way of communicating in real time with people. Generally, the user runs a client program to a server running a IRC server software. Hybrid ircd is such a server.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/ircd-hybrid/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/ircd-hybrid) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/ircd-hybrid) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/ircd-hybrid) ![](img/termprog.png)
 
 #### Chat Server Utilities
 
-* [![Open-Source Software][OSS Icon]](https://github.com/42wim/matterbridge) ⭐ 7,616 | 🐛 341 | 🌐 Go | 📅 2024-12-12 [Matterbridge](https://github.com/42wim/matterbridge) ⭐ 7,616 | 🐛 341 | 🌐 Go | 📅 2024-12-12 - bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, steam, twitch, ssh-chat, zulip, whatsapp, keybase, matrix, microsoft teams, nextcloud, mumble and more with REST API (mattermost not required!)
+* [![Open-Source Software][OSS Icon]](https://github.com/42wim/matterbridge) ⭐ 7,615 | 🐛 341 | 🌐 Go | 📅 2024-12-12 [Matterbridge](https://github.com/42wim/matterbridge) ⭐ 7,615 | 🐛 341 | 🌐 Go | 📅 2024-12-12 - bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, steam, twitch, ssh-chat, zulip, whatsapp, keybase, matrix, microsoft teams, nextcloud, mumble and more with REST API (mattermost not required!)
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net-im/matterbridge/)  ![](img/termprog.png)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/bitlbee/bitlbee) ⭐ 646 | 🐛 7 | 🌐 C | 📅 2025-10-05 [BitlBee](https://www.bitlbee.org/main.php/news.r.html) - BitlBee brings IM (instant messaging) to IRC clients. It's a great solution for people who have an IRC client running all the time and don't want to run an additional XMPP/facebook/discord/whatever client.
+* [![Open-Source Software][OSS Icon]](https://github.com/bitlbee/bitlbee) ⭐ 646 | 🐛 7 | 🌐 C | 📅 2026-11-08 [BitlBee](https://www.bitlbee.org/main.php/news.r.html) - BitlBee brings IM (instant messaging) to IRC clients. It's a great solution for people who have an IRC client running all the time and don't want to run an additional XMPP/facebook/discord/whatever client.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/bitlbee/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/bitlbee) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/bitlbee) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/bitlbee) ![](img/termprog.png)
 
 #### IRC Client
 
-* [![Open-Source Software][OSS Icon]](https://github.com/weechat/weechat) ⭐ 3,419 | 🐛 373 | 🌐 C | 📅 2026-11-08 [Weechat](https://weechat.org/) - Full-featured IRC chat client with plugin support for: multi-servers, proxy support, IPv6, SASL authentication, nicklist, DCC, and many other features.
+* [![Open-Source Software][OSS Icon]](https://github.com/weechat/weechat) ⭐ 3,421 | 🐛 374 | 🌐 C | 📅 2026-11-09 [Weechat](https://weechat.org/) - Full-featured IRC chat client with plugin support for: multi-servers, proxy support, IPv6, SASL authentication, nicklist, DCC, and many other features.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/irc/weechat/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/weechat) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/weechat) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/weechat)
 
@@ -287,13 +287,13 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 #### XMPP/Jabber Chat Client
 
-* [![Open-Source Software][OSS Icon]](https://github.com/dino/dino) ⭐ 2,506 | 🐛 690 | 🌐 Vala | 📅 2026-11-07 [dino](https://dino.im/) - Dino is a modern open-source chat client for the desktop. It focuses on providing a clean and reliable Jabber/XMPP experience while having your privacy in mind.
+* [![Open-Source Software][OSS Icon]](https://github.com/dino/dino) ⭐ 2,506 | 🐛 689 | 🌐 Vala | 📅 2026-11-08 [dino](https://dino.im/) - Dino is a modern open-source chat client for the desktop. It focuses on providing a clean and reliable Jabber/XMPP experience while having your privacy in mind.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net-im/dino/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/chat/dino) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/chat/dino) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/dino)
 
 ### Data Backup and Recovery
 
-* [![Open-Source Software][OSS Icon]](https://github.com/borgbackup/borg) ⭐ 13,915 | 🐛 179 | 🌐 Python | 📅 2026-11-06 [BorgBackup](https://borgbackup.readthedocs.io/en/stable/) - BorgBackup (short: Borg) is a deduplicating backup program. Optionally, it supports compression and authenticated encryption. The main goal of Borg is to provide an efficient and secure way to backup data. The data deduplication technique used makes Borg suitable for daily backups since only changes are stored. The authenticated encryption technique makes it suitable for backups to not fully trusted targets.
+* [![Open-Source Software][OSS Icon]](https://github.com/borgbackup/borg) ⭐ 13,916 | 🐛 180 | 🌐 Python | 📅 2026-11-09 [BorgBackup](https://borgbackup.readthedocs.io/en/stable/) - BorgBackup (short: Borg) is a deduplicating backup program. Optionally, it supports compression and authenticated encryption. The main goal of Borg is to provide an efficient and secure way to backup data. The data deduplication technique used makes Borg suitable for daily backups since only changes are stored. The authenticated encryption technique makes it suitable for backups to not fully trusted targets.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/archivers/py-borgbackup/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/py-borgbackup) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/py-borgbackup) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/borgbackup) ![](img/termprog.png)
 
@@ -311,7 +311,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ### Desktop Environments
 
-* [![Open-Source Software][OSS Icon]](https://github.com/lumina-desktop/lumina) ⭐ 594 | 🐛 96 | 🌐 C++ | 📅 2025-07-18 [Lumina](https://lumina-desktop.org/) - The Lumina desktop is designed to be fast, customizable, flexible, and lightweight. Lumina works great in multi-monitor configurations and with high-resolution monitors as well as single-screen configurations on laptops or tablets.
+* [![Open-Source Software][OSS Icon]](https://github.com/lumina-desktop/lumina) ⭐ 595 | 🐛 96 | 🌐 C++ | 📅 2025-07-18 [Lumina](https://lumina-desktop.org/) - The Lumina desktop is designed to be fast, customizable, flexible, and lightweight. Lumina works great in multi-monitor configurations and with high-resolution monitors as well as single-screen configurations on laptops or tablets.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/x11/lumina/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/lumina) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/x11/lumina)
 
@@ -336,17 +336,17 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 #### General Purpose IDE's
 
-* [![Open-Source Software][OSS Icon]](https://github.com/microsoft/vscode) ⭐ 195,186 | 🐛 21,780 | 🌐 TypeScript | 📅 2026-11-08 [Visual Studio Code](https://code.visualstudio.com/) - VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive editing and debugging support, an extensibility model, and lightweight integration with existing tools.
+* [![Open-Source Software][OSS Icon]](https://github.com/microsoft/vscode) ⭐ 195,235 | 🐛 21,912 | 🌐 TypeScript | 📅 2026-11-09 [Visual Studio Code](https://code.visualstudio.com/) - VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive editing and debugging support, an extensibility model, and lightweight integration with existing tools.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/vscode/)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/geany/geany) ⭐ 3,753 | 🐛 1,288 | 🌐 C | 📅 2026-11-01 [Geany](https://www.geany.org/) - Geany is a powerful, stable and lightweight programmer's text editor that provides tons of useful features without bogging down your workflow. It runs on Linux, Windows and MacOS is translated into over 40 languages, and has built-in support for more than 50 programming languages.
+* [![Open-Source Software][OSS Icon]](https://github.com/geany/geany) ⭐ 3,755 | 🐛 1,289 | 🌐 C | 📅 2026-11-01 [Geany](https://www.geany.org/) - Geany is a powerful, stable and lightweight programmer's text editor that provides tons of useful features without bogging down your workflow. It runs on Linux, Windows and MacOS is translated into over 40 languages, and has built-in support for more than 50 programming languages.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/devel/geany/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/devel/geany) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/devel/geany) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/devel/geany)
 
 ### Editors
 
-* [![Open-Source Software][OSS Icon]](https://github.com/neovim/neovim) ⭐ 103,503 | 🐛 2,008 | 🌐 Vim Script | 📅 2026-11-08 [Neovim](https://neovim.io/) - Neovim is an aggressive refactor of editors/vim. It represents a including sensible defaults, a built-in terminal emulator, asynchronous plugin architecture, and powerful APIs designed for speed and extensibility. It retains full compatibility with almost all Vim plugins and scripts. Open the software with `nvim`, not `neovim`.
+* [![Open-Source Software][OSS Icon]](https://github.com/neovim/neovim) ⭐ 103,528 | 🐛 2,009 | 🌐 Vim Script | 📅 2026-11-09 [Neovim](https://neovim.io/) - Neovim is an aggressive refactor of editors/vim. It represents a including sensible defaults, a built-in terminal emulator, asynchronous plugin architecture, and powerful APIs designed for speed and extensibility. It retains full compatibility with almost all Vim plugins and scripts. Open the software with `nvim`, not `neovim`.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/neovim/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/neovim) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/neovim) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/neovim) ![](img/termprog.png)
 
@@ -357,15 +357,15 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
   * [![Open-Source Software][OSS Icon]](https://github.com/facebookarchive/atom-ide-ui) ⚠️ Archived [Atom-ide](https://ide.atom.io/) - Atom UIs to support language services and debuggers as part of Atom IDE. Installable on any Atom installation as a plugin.
     <br/>
 
-* [![Open-Source Software][OSS Icon]](https://github.com/vim/vim) ⭐ 41,194 | 🐛 1,774 | 🌐 Vim Script | 📅 2026-11-05 [Vim](https://www.vim.org/) - Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
+* [![Open-Source Software][OSS Icon]](https://github.com/vim/vim) ⭐ 41,193 | 🐛 1,770 | 🌐 Vim Script | 📅 2026-11-09 [Vim](https://www.vim.org/) - Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/vim/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/vim) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/vim) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/vim) ![](img/termprog.png)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/zyedidia/micro) ⭐ 29,855 | 🐛 921 | 🌐 Go | 📅 2026-11-08 [Micro](https://micro-editor.github.io/) - Micro is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.
+* [![Open-Source Software][OSS Icon]](https://github.com/zyedidia/micro) ⭐ 29,861 | 🐛 921 | 🌐 Go | 📅 2026-11-09 [Micro](https://micro-editor.github.io/) - Micro is a terminal-based text editor that aims to be easy to use and intuitive, while also taking advantage of the full capabilities of modern terminals.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/micro/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/micro) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/micro) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/micro) ![](img/termprog.png)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/syl20bnr/spacemacs#emacs) ⭐ 24,552 | 🐛 59 | 🌐 Emacs Lisp | 📅 2026-11-08 [Spacemacs](https://github.com/syl20bnr/spacemacs) ⭐ 24,552 | 🐛 59 | 🌐 Emacs Lisp | 📅 2026-11-08 - A community-driven Emacs distribution
+* [![Open-Source Software][OSS Icon]](https://github.com/syl20bnr/spacemacs#emacs) ⭐ 24,553 | 🐛 60 | 🌐 Emacs Lisp | 📅 2026-11-09 [Spacemacs](https://github.com/syl20bnr/spacemacs) ⭐ 24,553 | 🐛 60 | 🌐 Emacs Lisp | 📅 2026-11-09 - A community-driven Emacs distribution
   The best editor is neither Emacs nor Vim, it's Emacs and Vim!
 
   ![](img/termprog.png)
@@ -374,7 +374,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/kakoune/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/kakoune) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/kakoune) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/kakoune) ![](img/termprog.png)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/emacs-mirror/emacs) ⭐ 5,244 | 🐛 16 | 🌐 Emacs Lisp | 📅 2026-11-08 [Emacs](https://www.gnu.org/software/emacs/) - An extensible, customizable, free/libre text editor, at its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.
+* [![Open-Source Software][OSS Icon]](https://github.com/emacs-mirror/emacs) ⭐ 5,245 | 🐛 16 | 🌐 Emacs Lisp | 📅 2026-11-09 [Emacs](https://www.gnu.org/software/emacs/) - An extensible, customizable, free/libre text editor, at its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/emacs/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/editors/emacs) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/editors/emacs) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/emacs) ![](img/termprog.png)
 
@@ -398,17 +398,17 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ### File Managers
 
-* [![Open-Source Software][OSS Icon]](https://github.com/jarun/nnn) ⭐ 22,111 | 🐛 1 | 🌐 C | 📅 2026-11-01 [nnn](https://github.com/jarun/nnn) ⭐ 22,111 | 🐛 1 | 🌐 C | 📅 2026-11-01 - nnn is a fast and resource-sensitive file browser which integrates well with your DE and favorite GUI utilities, works with the desktop opener, supports bookmarks, has smart navigation shortcuts, has navigate-as-you-type mode, disk usage analyzer mode, comprehensive file details and much more.
+* [![Open-Source Software][OSS Icon]](https://github.com/jarun/nnn) ⭐ 22,112 | 🐛 1 | 🌐 C | 📅 2026-11-01 [nnn](https://github.com/jarun/nnn) ⭐ 22,112 | 🐛 1 | 🌐 C | 📅 2026-11-01 - nnn is a fast and resource-sensitive file browser which integrates well with your DE and favorite GUI utilities, works with the desktop opener, supports bookmarks, has smart navigation shortcuts, has navigate-as-you-type mode, disk usage analyzer mode, comprehensive file details and much more.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/misc/nnn/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/sysutils/nnn) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/sysutils/nnn) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/nnn) ![](img/termprog.png)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/ranger/ranger) ⭐ 17,453 | 🐛 897 | 🌐 Python | 📅 2026-09-09 [ranger](https://ranger.github.io/) - ranger is a file manager with VI key bindings. It provides a minimalistic yet nice curses interface with a view on the directory hierarchy. The secondary task of ranger is to psychically guess which program you want to use for opening particular files.
+* [![Open-Source Software][OSS Icon]](https://github.com/ranger/ranger) ⭐ 17,454 | 🐛 897 | 🌐 Python | 📅 2026-09-09 [ranger](https://ranger.github.io/) - ranger is a file manager with VI key bindings. It provides a minimalistic yet nice curses interface with a view on the directory hierarchy. The secondary task of ranger is to psychically guess which program you want to use for opening particular files.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/sysutils/py-ranger/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/py-ranger) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/py-ranger) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/sysutils/ranger) ![](img/termprog.png)
 
 ### Games
 
-* [![Open-Source Software][OSS Icon]](https://github.com/arx/ArxLibertatis) ⭐ 1,116 | 🐛 70 | 🌐 C++ | 📅 2024-08-22 [Arx-Libertatis](https://arx-libertatis.org/) - Arx Libertatis is a cross-platform, open source port of Arx Fatalis, a 2002 first-person role-playing game developed by Arkane Studios.
+* [![Open-Source Software][OSS Icon]](https://github.com/arx/ArxLibertatis) ⭐ 1,117 | 🐛 70 | 🌐 C++ | 📅 2024-08-22 [Arx-Libertatis](https://arx-libertatis.org/) - Arx Libertatis is a cross-platform, open source port of Arx Fatalis, a 2002 first-person role-playing game developed by Arkane Studios.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/games/arx-libertatis/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/games/arx-libertatis) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/games/arx-libertatis) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/games/arx-libertatis)
 
@@ -422,17 +422,17 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ### Network Tools
 
-* [![Open-Source Software][OSS Icon]](https://github.com/zerotier/ZeroTierOne) ⭐ 17,240 | 🐛 426 | 🌐 C++ | 📅 2026-09-03 [Zerotier](https://www.zerotier.com/) - ZeroTier can be used for on-premise network virtualization, as a peer to peer VPN for mobile teams, for hybrid or multi-data-center cloud deployments, or just about anywhere else secure software defined virtual networking is useful. It's a Global Ethernet Switch!
+* [![Open-Source Software][OSS Icon]](https://github.com/zerotier/ZeroTierOne) ⭐ 17,242 | 🐛 426 | 🌐 C++ | 📅 2026-09-03 [Zerotier](https://www.zerotier.com/) - ZeroTier can be used for on-premise network virtualization, as a peer to peer VPN for mobile teams, for hybrid or multi-data-center cloud deployments, or just about anywhere else secure software defined virtual networking is useful. It's a Global Ethernet Switch!
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net/zerotier/)  ![](img/termprog.png)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/mobile-shell/mosh) ⭐ 14,639 | 🐛 237 | 🌐 C++ | 📅 2026-03-22 [Mosh](https://mosh.org/) - Mosh is a remote shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh
+* [![Open-Source Software][OSS Icon]](https://github.com/mobile-shell/mosh) ⭐ 14,643 | 🐛 237 | 🌐 C++ | 📅 2026-03-22 [Mosh](https://mosh.org/) - Mosh is a remote shell designed to withstand intermittant connectivity between two terminals, functioning similarly to ssh
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/net/mosh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/net/mosh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/net/mosh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/net/mosh)  ![](img/termprog.png)
 
 ### Media Players
 
-* [![Open-Source Software][OSS Icon]](https://github.com/videolan/vlc) ⭐ 20,367 | 🐛 2 | 🌐 C | 📅 2026-11-08 [VLC](https://www.videolan.org/vlc/index.html) - VLC media player is a highly portable multimedia player for various audio and video formats  as well as DVD's, VCD's, and various streaming protocols. It can also be used as a server to stream in unicast or multicast in IPv4 or IPv6 on a high-bandwidth network. VLC also has the ability to transcode media on-the-fly for streaming or saving to disk.
+* [![Open-Source Software][OSS Icon]](https://github.com/videolan/vlc) ⭐ 20,386 | 🐛 2 | 🌐 C | 📅 2026-11-09 [VLC](https://www.videolan.org/vlc/index.html) - VLC media player is a highly portable multimedia player for various audio and video formats  as well as DVD's, VCD's, and various streaming protocols. It can also be used as a server to stream in unicast or multicast in IPv4 or IPv6 on a high-bandwidth network. VLC also has the ability to transcode media on-the-fly for streaming or saving to disk.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/multimedia/vlc/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/multimedia/vlc) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/multimedia/vlc) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/x11/vlc)
 
@@ -442,7 +442,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ### Office
 
-* [![Open-Source Software][OSS Icon]](https://github.com/KDE/calligra) ⭐ 210 | 🐛 0 | 🌐 C++ | 📅 2026-11-08 [Calligra](https://calligra.org/) - Calligra Suite is an office and graphic art suite by KDE. It is available for desktop PCs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.
+* [![Open-Source Software][OSS Icon]](https://github.com/KDE/calligra) ⭐ 210 | 🐛 0 | 🌐 C++ | 📅 2026-11-09 [Calligra](https://calligra.org/) - Calligra Suite is an office and graphic art suite by KDE. It is available for desktop PCs, tablet computers, and smartphones. It contains applications for word processing, spreadsheets, presentation, vector graphics, and editing databases.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/editors/calligra/) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/editors/calligra)
 
@@ -456,11 +456,11 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ### Security
 
-* [![Open-Source Software][OSS Icon]](https://github.com/fail2ban/fail2ban) ⭐ 18,975 | 🐛 283 | 🌐 Python | 📅 2026-11-07 [Fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) - Fail2Ban scans log files like /var/log/auth.log and bans IP addresses conducting too many failed login attempts. It does this by updating system firewall rules to reject new connections from those IP addresses, for a configurable amount of time. Fail2Ban comes out-of-the-box ready to read many standard log files, such as those for sshd and Apache, and is easily configured to read any log file of your choosing, for any error you wish.
+* [![Open-Source Software][OSS Icon]](https://github.com/fail2ban/fail2ban) ⭐ 18,984 | 🐛 283 | 🌐 Python | 📅 2026-11-07 [Fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) - Fail2Ban scans log files like /var/log/auth.log and bans IP addresses conducting too many failed login attempts. It does this by updating system firewall rules to reject new connections from those IP addresses, for a configurable amount of time. Fail2Ban comes out-of-the-box ready to read many standard log files, such as those for sshd and Apache, and is easily configured to read any log file of your choosing, for any error you wish.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/security/py-fail2ban/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/security/fail2ban) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/security/fail2ban) ![](img/termprog.png)
 
-* [![Open-Source Software][OSS Icon]](https://github.com/future-architect/vuls) ⭐ 12,331 | 🐛 101 | 🌐 Go | 📅 2026-11-06 [Vuls](https://vuls.io/) - Vuls is open-source, agent-less vulnerability scanner based on information from NVD, OVAL, etc.
+* [![Open-Source Software][OSS Icon]](https://github.com/future-architect/vuls) ⭐ 12,333 | 🐛 101 | 🌐 Go | 📅 2026-11-09 [Vuls](https://vuls.io/) - Vuls is open-source, agent-less vulnerability scanner based on information from NVD, OVAL, etc.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/security/vuls/)
 
@@ -482,13 +482,13 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ### Terminal Emulators
 
-* [![Open-Source Software][OSS Icon]](https://github.com/alacritty/alacritty) ⭐ 66,132 | 🐛 346 | 🌐 Rust | 📅 2026-11-06 [Alacritty](https://github.com/alacritty/alacritty) ⭐ 66,132 | 🐛 346 | 🌐 Rust | 📅 2026-11-06 - Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it. Alacritty currently supports macOS, Linux, BSD, and Windows.
+* [![Open-Source Software][OSS Icon]](https://github.com/alacritty/alacritty) ⭐ 66,145 | 🐛 346 | 🌐 Rust | 📅 2026-11-06 [Alacritty](https://github.com/alacritty/alacritty) ⭐ 66,145 | 🐛 346 | 🌐 Rust | 📅 2026-11-06 - Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible without it. Alacritty currently supports macOS, Linux, BSD, and Windows.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/x11/alacritty/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/x11/alacritty) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/x11/alacritty)
 
 ### UNIX Shells
 
-* [![Open-Source Software][OSS Icon]](https://github.com/fish-shell/fish-shell) ⭐ 34,420 | 🐛 570 | 🌐 Rust | 📅 2026-11-08 [Fish](https://fishshell.com/) - Fish is a shell designed with user friendliness in mind, having many included features such as syntax highlighting and autosuggestions, with extensive tab autocompletion, it is a very interesting take on a POSIX shell.
+* [![Open-Source Software][OSS Icon]](https://github.com/fish-shell/fish-shell) ⭐ 34,427 | 🐛 571 | 🌐 Rust | 📅 2026-11-08 [Fish](https://fishshell.com/) - Fish is a shell designed with user friendliness in mind, having many included features such as syntax highlighting and autosuggestions, with extensive tab autocompletion, it is a very interesting take on a POSIX shell.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/fish/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/fish) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/fish) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/fish)  ![](img/termprog.png)
 
@@ -498,7 +498,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
     <br/>
 
-* [![Open-Source Software][OSS Icon]](https://github.com/elves/elvish) ⭐ 6,396 | 🐛 351 | 🌐 Go | 📅 2026-03-31 [Elvish](https://elv.sh/) - Elvish is a friendly interactive shell and an expressive programming language. It runs on Linux, BSDs, macOS and Windows. Despite its pre-1.0 status, it is already suitable for most daily interactive use.
+* [![Open-Source Software][OSS Icon]](https://github.com/elves/elvish) ⭐ 6,397 | 🐛 351 | 🌐 Go | 📅 2026-03-31 [Elvish](https://elv.sh/) - Elvish is a friendly interactive shell and an expressive programming language. It runs on Linux, BSDs, macOS and Windows. Despite its pre-1.0 status, it is already suitable for most daily interactive use.
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/elvish/) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/elvish)  ![](img/termprog.png)
 
@@ -518,7 +518,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/bash/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/bash) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/bash) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/bash) ![](img/termprog.png)
 
-  * [![Open-Source Software][OSS Icon]](https://github.com/ohmybash/oh-my-bash) ⭐ 7,765 | 🐛 163 | 🌐 Shell | 📅 2026-10-28 [Oh-My-Bash](https://ohmybash.nntoan.com/) - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration. Can be installed via git or shellscript if not in Ports.
+  * [![Open-Source Software][OSS Icon]](https://github.com/ohmybash/oh-my-bash) ⭐ 7,766 | 🐛 163 | 🌐 Shell | 📅 2026-10-28 [Oh-My-Bash](https://ohmybash.nntoan.com/) - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration. Can be installed via git or shellscript if not in Ports.
 
     ![](img/termprog.png)
 
@@ -528,7 +528,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
   [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/zsh/) [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/shells/zsh) [![Available in OpenBSD](img/openbsdico.png)](https://openports.se/shells/zsh) ![](img/termprog.png)
 
-  * [![Open-Source Software][OSS Icon]](https://github.com/ohmyzsh/ohmyzsh/) ⭐ 190,371 | 🐛 313 | 🌐 Shell | 📅 2026-11-08 [Oh-My-Zsh](https://ohmyz.sh/) - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration and themes. Can be installed via git or shellscript if not in Ports. The original oh-my-framework.
+  * [![Open-Source Software][OSS Icon]](https://github.com/ohmyzsh/ohmyzsh/) ⭐ 190,392 | 🐛 310 | 🌐 Shell | 📅 2026-11-09 [Oh-My-Zsh](https://ohmyz.sh/) - Oh My Zsh is an open source, community-driven framework for managing your zsh configuration and themes. Can be installed via git or shellscript if not in Ports. The original oh-my-framework.
 
     [![Available in FreeBSD](img/freebsdico.png)](https://www.freshports.org/shells/ohmyzsh/) ![](img/termprog.png)
 
@@ -536,7 +536,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ### Utilities
 
-* [![Open-Source Software][OSS Icon]](https://github.com/bleachbit/bleachbit) ⭐ 7,415 | 🐛 306 | 🌐 Python | 📅 2026-11-08 [Bleachbit](https://www.bleachbit.org/) - When your computer is getting full, BleachBit quickly frees disk space. When your information is only your business, BleachBit guards your privacy. With BleachBit you can free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk you didn't know was there. Designed for Linux and Windows systems, it wipes clean thousands of applications including Firefox, Adobe Flash, Google Chrome, Opera, and more.
+* [![Open-Source Software][OSS Icon]](https://github.com/bleachbit/bleachbit) ⭐ 7,426 | 🐛 314 | 🌐 Python | 📅 2026-11-08 [Bleachbit](https://www.bleachbit.org/) - When your computer is getting full, BleachBit quickly frees disk space. When your information is only your business, BleachBit guards your privacy. With BleachBit you can free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk you didn't know was there. Designed for Linux and Windows systems, it wipes clean thousands of applications including Firefox, Adobe Flash, Google Chrome, Opera, and more.
 
   [![Available in NetBSD](img/netbsdico.png)](https://pkgsrc.se/wip/bleachbit) [![Available in DragonflyBSD](img/dragonflybsdico.png)](https://pkgsrc.se/wip/bleachbit)
 
@@ -550,7 +550,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 *Here are the various other smaller BSD's that exist, some are for very specific purposes, but there are many BSD's.*
 
-* [Hello](https://github.com/helloSystem/hello) ⭐ 2,470 | 🐛 135 | 📅 2024-07-09 - Based on FreeBSD, [Hello is Desktop system](https://medium.com/@probonopd/hello-lets-make-a-freebsd-for-mere-mortals-41b8f93ba075) for creators with focus on simplicity, elegance, and usability. Less, but better!
+* [Hello](https://github.com/helloSystem/hello) ⭐ 2,471 | 🐛 135 | 📅 2024-07-09 - Based on FreeBSD, [Hello is Desktop system](https://medium.com/@probonopd/hello-lets-make-a-freebsd-for-mere-mortals-41b8f93ba075) for creators with focus on simplicity, elegance, and usability. Less, but better!
 * [BlackBSD](http://blackbsd.tk/) - Based off of NetBSD BlackBSD is a penetration testing distribution with many common pen-testing applications pre-installed. It functions completely as a liveCD or USB.
 * [BSD Router Project](https://bsdrp.net/) - A Project to create a BSD distribution focusing on turning the OS into a Router.
 * [FuguIta OpenBSD](http://fuguita.org/) - FuguIta is a live system which runs off Floppy disk or Flash drive which allows you to take OpenBSD with you regardless of machine.
@@ -713,7 +713,7 @@ The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like opera
 
 ## Miscallaneous Web Resources
 
-* [FreeBSD Port Tree on Github](https://github.com/freebsd/freebsd-ports) ⭐ 1,229 | 🐛 92 | 🌐 Makefile | 📅 2026-11-08 - The FreeBSD port tree on Github as a read only mirror, you can watch daily how often ports are updated or added here.
+* [FreeBSD Port Tree on Github](https://github.com/freebsd/freebsd-ports) ⭐ 1,228 | 🐛 93 | 🌐 Makefile | 📅 2026-11-09 - The FreeBSD port tree on Github as a read only mirror, you can watch daily how often ports are updated or added here.
 * [BSD Magazine](https://bsdmag.org/) - A Digital Only BSD Magazine, it does have a subscription fee, but also has a free tier.
 * [BSDsec](https://bsdsec.net/) - deadsimple BSD Security Advisories and Announcements.
 * [FreeBSD Foundation Resources](https://freebsdfoundation.org/freebsd-project/resources/) - a variety of how-to's and projects for FreeBSD users from the Free BSD foundation.
@@ -803,4 +803,4 @@ other information across the list is also welcome, in case you have a new forum,
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-08._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-09._
